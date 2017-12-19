@@ -1,0 +1,82 @@
+/*jumbotron------------------------------------------------------------------ */
+.jumbotron {
+  background-image: url("../../images/banner-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  margin-bottom: 0;
+  padding: 0;
+}
+.jumbotron h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.jumbotron .content {
+  margin-bottom: 0;
+}
+.jumbotron .container {
+  padding: 0;
+}
+.select-menu .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.select-menu .nav > li > a:active,
+.select-menu .nav > li > a:hover,
+.select-menu .nav > li.active-trail > a.active:active,
+.select-menu .nav > li.active-trail > a.active:hover {
+  background-color: #d8e2ea;
+}
+@media (max-width: 991px) {
+  .select-menu .container {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  .select-menu {
+    background-color: #d8e2ea;
+  }
+  .select-menu ul {
+    display: inline-block;
+  }
+  .select-menu ul li {
+    display:inline-block;
+  }
+}
+/* collapsible -------------------------------------------------------------- */
+.well .row {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dropdown-card {
+  flex-basis: 20%;
+  padding: 5px;
+}
+.dropdown-card-content {
+  flex-grow: 1;
+  height: 100%;
+}
+.dropdown-card p {
+  margin-bottom: 0;
+}
+.dropdown-card a {
+  font-size: 18px;
+  font-weight: 600;
+}
+.dropdown-card h3 {
+  line-height: normal;
+}
+@media (max-width: 991px) {
+  .dropdown-card {
+    flex-basis: 33%;
+  }
+}
+@media (max-width: 767px) {
+  .dropdown-card {
+    flex-basis: 100%;
+  }
+}
