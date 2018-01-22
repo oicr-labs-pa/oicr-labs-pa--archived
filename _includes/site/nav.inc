@@ -44,36 +44,27 @@
 
                 <!-- MAIN MENU -->
                 <ul id="nav-main-menu" class="my-navbar nav navbar-nav ">
-                    <li role="presentation" class="nav-item text-uppercase">
-                        <a href="/research">Our Research</a>
-                    </li>
-                    <li role="presentation" class="nav-item text-uppercase">
-                        <a href="/publications">Publications</a>
-                    </li>
-                    <li role="presentation" class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-uppercase" href="/about/" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">About Us
-                            <span class="caret"></span>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="/about/">Overview</a>
+                    {% for item in nav.nav_list %}
+                        {% if item.dropdown_list %}
+                            <li role="presentation" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-uppercase" href="{{item.link_txt}}" id="navDropdown{{ item.title_txt | replace: ' ', '' }}" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">{{ item.title_txt }}
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navDropdown{{ item.title_txt | replace: ' ', '' }}">
+                                    {% for drop in item.dropdown_list %}
+                                        <li>
+                                            <a class="dropdown-item" href="{{ drop.link_txt }}">{{ drop.title_txt }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
                             </li>
-                            <li>
-                                <a class="dropdown-item" href="/team/">Meet the Team</a>
+                        {% else %}
+                            <li role="presentation" class="nav-item text-uppercase">
+                                <a href="{{ item.link_txt }}">{{ item.title_txt }}</a>
                             </li>
-                            <li>
-                                <a class="dropdown-item" href="/media/">In the Media</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li role="presentation" class="nav-item text-uppercase">
-                        <a href="/join/">Join the Team</a>
-                    </li>
-                    <li role="presentation" class="nav-item text-uppercase">
-                        <a href="/contact/">Contact Us</a>
-                    </li>
+                        {% endif %}
+                    {% endfor %}
                 </ul>
                 <!-- main menu -->
             </div>
