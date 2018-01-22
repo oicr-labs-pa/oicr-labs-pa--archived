@@ -42,10 +42,6 @@ excerpt_separator: "<!--more-->"
 collections:
   _modules:
     output: false
-  _team:
-    output: false
-  _publications:
-    output: false
 
 ######################################################################
 # Jekyll Environment Config
