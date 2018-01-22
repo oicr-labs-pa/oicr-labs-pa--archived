@@ -45,34 +45,34 @@
                 <!-- MAIN MENU -->
                 <ul id="nav-main-menu" class="my-navbar nav navbar-nav ">
                     <li role="presentation" class="nav-item text-uppercase">
-                        <a href="research.html">Our Research</a>
+                        <a href="/research">Our Research</a>
                     </li>
                     <li role="presentation" class="nav-item text-uppercase">
-                        <a href="publications.html">Publications</a>
+                        <a href="/publications">Publications</a>
                     </li>
                     <li role="presentation" class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-uppercase" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-uppercase" href="/about/" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">About Us
                             <span class="caret"></span>
                         </a>
 
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="about.html">Overview</a>
+                                <a class="dropdown-item" href="/about/">Overview</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="team.html">Meet the Team</a>
+                                <a class="dropdown-item" href="/team/">Meet the Team</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="media.html">In the Media</a>
+                                <a class="dropdown-item" href="/media/">In the Media</a>
                             </li>
                         </ul>
                     </li>
                     <li role="presentation" class="nav-item text-uppercase">
-                        <a href="join.html">Join the Team</a>
+                        <a href="/join/">Join the Team</a>
                     </li>
                     <li role="presentation" class="nav-item text-uppercase">
-                        <a href="contact.html">Contact Us</a>
+                        <a href="/contact/">Contact Us</a>
                     </li>
                 </ul>
                 <!-- main menu -->

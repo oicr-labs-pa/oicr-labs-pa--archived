@@ -39,6 +39,10 @@ nav.navbar {
   justify-content: center;
 }
 
+#publication-search .form-group {
+
+}
+
 .search-header .form-group {
   width: 40%;
   display: inline-flex;
@@ -56,6 +60,10 @@ nav.navbar {
 
 
 /*search--------------------------------------------------------------------- */
+#publication-search .form-group {
+  width: unset;
+}
+
 #publication-search .form-control {
   background-image: url("/assets/site/images/icon-search.svg");
   background-position: 10px 50%;
