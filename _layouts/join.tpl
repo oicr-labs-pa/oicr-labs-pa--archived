@@ -1,94 +1,138 @@
 ---
-layout: pages-all
+layout: default
 ---
+<div id="page-wrapper" class="page-wrapper">
+    <div id="page" class="page">
 
-<!-- page top -->
-{% assign top = page.top %}
-<div class="container join-description">
-  <div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-      <img src="{{top.topImage_txt}}" class="image-icon" alt="Icon People">
-      <h3>{{top.topDescription_txt}}</h3>
-    </div>
-  </div>
-</div>
-<!-- page top -->
-
-<!-- graduates -->
-{% assign grad = page.graduates %}
-<div class="grey-section">
-  <div class="container">
-    <div class="row text-center">
-      <h2>{{grad.title_txt}}</h2>
-      <div class="row graduate-teaser">
-        <div class="col-xs-12 col-md-6 text-left">
-          {{grad.leftDescription_txt | markdownify }}
-          <img src="{{grad.leftImage_txt}}" alt="Graduate student picture">
-        </div>
-        <div class="col-xs-12 col-md-6 text-left">
-          <h3>{{grad.right_txt}}</h3>
-          <ul>
-            {% for item in grad.right_list %}
-              <li><span>{{item | markdownify}}</span></li>
-            {% endfor %}
-          </ul>
-          <div class="border-box blue-box">
-            <img src="{{grad.boxImage_txt}}" class="image-icon contact-icon" alt="">
-            <div class="border-box-content">
-              {{grad.box_txt | markdownify}}
-              <a href="{{grad.btnLink_txt}}" class="btn btn-primary icon-arrow">{{grad.btn_txt}}</a>
+        <!-- Banner -->
+        <div class="jumbotron wrapper">
+            <div class="container container-jumbotron banner">
+                <div class="col-md-12 banner-content content text-center">
+                    <h1 class="text-uppercase">Join The Team</h1>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- graduates -->
+        <!-- Banner -->
 
-<!-- undergrads -->
-{% assign under = page.undergrads %}
-<div class="container undergradute-section">
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <h2>{{under.title_txt}}</h2>
-      <div class="row">
-        <div class="col-xs-12 col-md-6 text-left">
-          {{under.left_txt | markdownify}}
-          <div class="border-box red-box">
-            <img src="{{under.boxImage_txt}}" class="image-icon contact-icon" alt="Email Icon">
-            <div class="border-box-content">
-              {{under.box_txt | markdownify}}
-              <a href="{{under.btnLink_txt}}" class="btn btn-primary icon-arrow">{{under.btn_txt}}</a>
+        <!-- about us -->
+        <div class="container join-description">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                    <img src="/assets/site/images/icon-people.svg" class="image-icon" alt="">
+                    <p>
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</strong>
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-xs-12 col-md-6">
-          <img src="{{under.rightImage_txt}}" alt="Awadalla Team picture">
+        <!-- about us -->
+
+        <!-- research -->
+        <div class="grey-section">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Graduate and Postdoctoral Training</h2>
+                    <div class="row graduate-teaser">
+                        <div class="col-xs-12 col-md-6 text-left">
+                            <p>
+                                <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet,</strong>Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, .</p>
+                            <img src="/assets/site/images/awadalla-lab-team-photo-jointheteam1.jpg" alt="Graduate student picture">
+                        </div>
+                        <div class="col-xs-12 col-md-6 text-left">
+                            <h3>What to expect:</h3>
+                            <ul>
+                                <li>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi</span>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. </span>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. </span>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi</span>
+                                </li>
+                            </ul>
+                            <div class="border-box blue-box">
+                                <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
+                                <div class="border-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi delectus, consectetur
+                                        esse quo quia temporibus</p>
+                                    <a href="" class="btn btn-primary icon-arrow">email us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- undergrads -->
+        <!-- research -->
 
-<!-- join us bottom -->
-{% assign bottom = page.pageBottom %}
-<div class="grey-section">
-  <div class="container">
-    <div class="row page-bottom">
-      <div class="col-xs-12 col-md-4">
-        <img src="{{bottom.bottomImage_txt}}" alt="Team Photo">
-      </div>
-      {% for item in bottom.bottomBox_list %}
-      <div class="col-xs-12 col-md-4">
-        <h3>{{item.boxTitle_txt}}</h3>
-        <p>{{item.boxDescription_txt}}</p>
-        <a href="{{item.btnLink_txt}}" class="btn btn-primary icon-arrow">{{item.boxBtn_txt}}</a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+        <!-- about us -->
+        <div class="container undergradute-section">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2>Bioinformatics, Undergraduate and Volunteer Opportunities</h2>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 text-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi delectus, consectetur
+                                esse quo quia temporibus
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi delectus, consectetur
+                                esse quo quia temporibus
+                            </p>
+                            <div class="border-box red-box">
+                                <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
+                                <div class="border-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi delectus, consectetur
+                                        esse quo quia temporibus</p>
+                                    <a href="" class="btn btn-primary icon-arrow">email us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <img src="/assets/site/images/awadalla-lab-team-photo-jointheteam2.jpg" alt="Awadalla Team picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about us -->
 
-<!-- join us bottom -->
+        <!-- homepage bottom -->
+        <div class="grey-section">
+            <div class="container">
+                <div class="row page-bottom">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="/assets/site/images/test.png" alt="Team Photo">
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <h3>Big Data Meets Genetic Research</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <a href="" class="btn btn-primary icon-arrow">Our Research</a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <h3>Innovative and Collaborative</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <a href="" class="btn btn-primary icon-arrow">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- homepage bottom -->
+
+    </div>
+</div>
