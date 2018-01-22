@@ -1,12 +1,12 @@
 @font-face {
     font-family:'Futura Book';
-    src: url('../../fonts/Futura-Bold.eot');
-	  src: url('../../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
-		     url('../../fonts/Futura-Bold.woff2') format('woff2'),
-		     url('../../fonts/Futura-Bold.woff') format('woff'),
-		     url('../../fonts/Futura-Bold.ttf') format('truetype'),
-		     url('../../fonts/Futura-Bold.otf') format('opentype'),
-		     url('../../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+    src: url('/assets/site/fonts/Futura-Bold.eot');
+	  src: url('/assets/site/fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+		     url('/assets/site/fonts/Futura-Bold.woff2') format('woff2'),
+		     url('/assets/site/fonts/Futura-Bold.woff') format('woff'),
+		     url('/assets/site/fonts/Futura-Bold.ttf') format('truetype'),
+		     url('/assets/site/fonts/Futura-Bold.otf') format('opentype'),
+		     url('/assets/site/fonts/Futura-Bold.svg#Futura-Bold') format('svg');
         font-weight: 700;
         font-style: normal;
         font-stretch: normal;
