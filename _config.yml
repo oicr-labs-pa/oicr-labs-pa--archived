@@ -32,6 +32,9 @@ email: webdev@oicr.on.ca
 # the subpath of your site, e.g. /blog
 baseurl: ""
 
+# Github Repository Information
+git_repo: oicr-webdev/webdev_oicr-labs-pa
+
 # Default permalink for posts
 permalink: /node/:year-:month-:day-:title.html
 
@@ -41,6 +44,8 @@ excerpt_separator: "<!--more-->"
 # Collections setting. https://jekyllrb.com/docs/collections/
 collections:
   _modules:
+  _team:
+  _alumni:
     output: false
 
 ######################################################################
