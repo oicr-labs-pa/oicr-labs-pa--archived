@@ -102,9 +102,9 @@ layout: default
                         <h2>{{ page.alumni.title_txt }}</h2>
                         {% for alumn in page.alumni.types_list %}
                         <div id="{{ alumn.type_txt | slugify}}-alumni" class="collapsible text-left">
-                            <button aria-controls="collapse" aria-expanded="true" class="btn-expand" data-target="#{{ alumn.type_txt | slugify}}-collapsible" data-toggle="collapse"
+                            <button aria-controls="collapse" aria-expanded="false" class="btn-expand collapsed" data-target="#{{ alumn.type_txt | slugify}}-collapsible" data-toggle="collapse"
                                 type="button">{{ alumn.type_txt }}</button>
-                            <div aria-expanded="true" class="collapse in" id="{{ alumn.type_txt | slugify}}-collapsible" style="">
+                            <div aria-expanded="false" class="collapse" id="{{ alumn.type_txt | slugify}}-collapsible" style="">
                                 <div class="well">
                                     <div id="{{ alumn.type_txt | slugify}}-isotope" class="row">
                                         {% assign p = site._alumni | where: "alumniType_txt", alumn.type_txt %}

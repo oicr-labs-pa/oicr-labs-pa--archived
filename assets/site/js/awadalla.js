@@ -84,6 +84,19 @@ jQuery(function($) {
         });
     });
 
+    $("div[id^='media']").each(function() {
+        var currentPanel = $(this);
+        console.log('here');
+        const grid = currentPanel.find('.isotope-grid').isotope({
+            itemSelector: '.dropdown-card'
+        });
+
+        currentPanel.on('shown.bs.collapse', function() {
+            grid.isotope('layout');
+            $(this).css('height', 'auto');
+        });
+    });
+
     function myFunction() {
         var x = document.getElementById('select-menu');
         if (x.style.display === 'none') {
