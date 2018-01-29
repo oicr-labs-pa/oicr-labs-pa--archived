@@ -47,6 +47,7 @@ collections:
   _team:
   _alumni:
   _news:
+  _publications:
     output: false
 
 ######################################################################
