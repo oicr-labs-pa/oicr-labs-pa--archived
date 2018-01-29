@@ -8,7 +8,7 @@ layout: default
         <div class="jumbotron wrapper">
             <div class="container container-jumbotron banner">
                 <div class="col-md-12 banner-content content text-center">
-                    <h1 class="text-uppercase">Contact us</h1>
+                    <h1 class="text-uppercase">{{page.title_txt}}</h1>
                 </div>
             </div>
         </div>
@@ -20,9 +20,7 @@ layout: default
                 <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                     <img src="/assets/site/images/icon-contactus.svg" class="image-icon" alt="">
                     <p>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</strong>
+                        <strong>{{page.subtitle_txt}}</strong>
                     </p>
                 </div>
             </div>
@@ -70,11 +68,10 @@ layout: default
                 <div class="col-xs-12 col-md-6 forum-right">
                     <div class="forum-description box-content form-info">
                         <div class="text-left">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis tenetur pariatur ab labore
-                                cum reiciendis!</p>
+                            <p>{{page.captionLeft_txt}}</p>
                         </div>
                         <div class="text-left">
-                            <p>MaRS Centre, West Tower 661 University Avenue, Suite 510 Toronto, Ontario Canada M5G 0A3</p>
+                            <p>{{page.captionRight_txt}}</p>
                         </div>
                     </div>
                     <div class="forum-pictures">
