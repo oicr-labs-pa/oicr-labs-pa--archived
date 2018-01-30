@@ -10,7 +10,7 @@ about:
   content_list:
     - "Our research investigates the underlying genetic and environmental determinants of human disease, with a focus on processes associated with aging, cancer, chronic diseases,  and infectious agents."
     - "Working with genomic data and through the development of computational tools and models, the laboratory addresses questions relevant to how genetics and the environment influence the frequency and severity of diseases in human populations on a global scale."
-    - "<b> Bioinformatics and Computational Biology influences and furthers genetic research. </b> Our work falls at the intersection of bioinformatics, genetics and big data. We recruit varied skillsets and subject matter expertise to develop innovative and successful ways to solve and understand disease development in Canada and globally.  In this way, we are able to use genomic data, along with modern statistical and machine learning tools, to map and annotate genomic regions associated with disease pathology and virulence, as well as study the mechanisms that cause the mutations."
+    - "<strong> Bioinformatics and Computational Biology influences and furthers genetic research. </strong> Our work falls at the intersection of bioinformatics, genetics and big data. We recruit varied skillsets and subject matter expertise to develop innovative and successful ways to solve and understand disease development in Canada and globally.  In this way, we are able to use genomic data, along with modern statistical and machine learning tools, to map and annotate genomic regions associated with disease pathology and virulence, as well as study the mechanisms that cause the mutations."
 
 researchThemes:
   title_txt: "Research Themes" 

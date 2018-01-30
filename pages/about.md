@@ -31,13 +31,13 @@ dataPlatforms:
   subtitle_txt: "Our Lab has access to vast amounts of data and expertise:"
   item_list:
     - logo_txt: "/assets/site/images/logo-ontario-health-study.svg"
-      main_txt: The <a href="">Ontario Health Study (OHS)</a> is a long-term health study following the health of more than 230,000 Ontarians collecting data through questionnaires, blood samples and physical measurements. The goal is to build a platform that researchers can use now and decades into the future to better understand the causes of cancer and chronic disease.
+      main_txt: The <a href="https://ontariohealthstudy.ca/">Ontario Health Study (OHS)</a> is a long-term health study following the health of more than 230,000 Ontarians collecting data through questionnaires, blood samples and physical measurements. The goal is to build a platform that researchers can use now and decades into the future to better understand the causes of cancer and chronic disease.
     - logo_txt: "/assets/site/images/logo-cdic.svg"
-      main_txt: The <a href="">Canadian Data Integration Centre</a> is a Canada’s Big Data platform offering analytical and bioinformatics support to genomic researchers by providing the software and analytic systems to collect and harmonize data, analyze it and electronically publish the results.
+      main_txt: The <a href="http://genome-cdic.ca/">Canadian Data Integration Centre</a> is a Canada’s Big Data platform offering analytical and bioinformatics support to genomic researchers by providing the software and analytic systems to collect and harmonize data, analyze it and electronically publish the results.
     - logo_txt: "/assets/site/images/logo-CPTP.png"
-      main_txt: The <a href="">Canadian Partnership for Tomorrow Project (CPTP)</a> is Canada’s largest group of volunteer research participants (population cohort), built to address key questions about what causes cancer and chronic disease."
+      main_txt: The <a href="http://www.partnershipfortomorrow.ca">Canadian Partnership for Tomorrow Project (CPTP)</a> is Canada’s largest group of volunteer research participants (population cohort), built to address key questions about what causes cancer and chronic disease."
     - logo_txt: "/assets/site/images/logo-oicr-genomics-and-bioinformatics.svg"
-      main_txt: Our lab collaborates with the The <a href="">OICR Genomics & Bioinformatics</a> team, whose mission is to provide large-scale, next-generation sequencing (NGS) cancer genomics capabilities to researchers in Ontario and beyond.
+      main_txt: Our lab collaborates with the The <a href="https://oicr.on.ca/research-portfolio/genomics/">OICR Genomics & Bioinformatics</a> team, whose mission is to provide large-scale, next-generation sequencing (NGS) cancer genomics capabilities to researchers in Ontario and beyond.
   
 joinTeamBox:
   image_txt: "/assets/site/images/awadalla-lab-team-photo-montreal.jpg"
