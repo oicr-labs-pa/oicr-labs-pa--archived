@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages-all
 ---
 {% assign postsByYear = site._news | group_by_exp:"post", "post.release_date | date: '%Y'" %}
 {% assign postsByYear = postsByYear | sort: 'name' | reverse %}
