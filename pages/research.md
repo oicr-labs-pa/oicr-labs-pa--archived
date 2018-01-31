@@ -5,7 +5,6 @@ permalink: /research/
 cssfield: research.css
 published: true
 isPublic_b: true
----
 
 title_txt: "Big Data Meets Genetic Research"
 about:
