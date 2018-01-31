@@ -82,31 +82,31 @@
 
 @media(max-width: 575px) {
     .dropdown-card {
-        height: 180px;
+        height: 310px;
     }
 }
 
 @media (min-width: 576px) {
     .dropdown-card {
-        height: 124px;
+        height: 165px;
     }
 }
 
 @media (min-width: 768px) {
     .dropdown-card {
-        height: 110px;
+        height: 155px;
     }
 }
 
 @media (min-width: 992px) {
     .dropdown-card {    
-        height: 124px;
+        height: 173px;
     }
 }
 
 @media (min-width: 1200px) {
     .dropdown-card {
-        height: 158px;
+        height: 260px;
     }
 }
 
