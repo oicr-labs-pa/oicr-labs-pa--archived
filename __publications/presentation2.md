@@ -2,7 +2,7 @@
 title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
-isPublic_b: false
+isPublic_b: true
 
 publicationType_txt: presentation
 title_txt: This is a presentation with attachment link
