@@ -3,6 +3,8 @@ title: Meet The Team
 layout: team
 permalink: /team/
 cssfield: team.css
+published: true
+isPublic_b: true
 
 readBio_txt: Read Bio
 
