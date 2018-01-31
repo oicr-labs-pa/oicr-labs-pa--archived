@@ -31,7 +31,7 @@ layout: pages-all
 
                     <!-- Begin MailChimp Signup Form -->
                     <div id="mc_embed_signup">
-                    <form action="https://oicr.us15.list-manage.com/subscribe/post?u=af1878706bae96f6bafa75885&amp;id=29f385db2d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <form action="https://github.us17.list-manage.com/subscribe/post?u=4c83876e4589dfcabb8e67fe4&amp;id=e36dbeef71" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
                             <div class="form-group mc-field-group">
                                 <label for="mce-FNAME">Name <span class="asterisk">*</span></label>
