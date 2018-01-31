@@ -57,7 +57,101 @@ nav.navbar {
   width: 70%;
 }
 
+/* NEW publications --------------------------------------------------------- */
 
+#oicr-ui-core-publications .filter-bar {
+	width: auto;
+	font-size: 14px;
+	line-height: 3;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(204, 204, 204, 0.31);
+  border: 1px solid #ccc;
+  padding-bottom: 10px !important;
+  margin-bottom: 0;
+}
+
+#oicr-ui-core-publications .filter-bar .btn {
+  border-color: #0F72B8;
+}
+
+#oicr-ui-core-publications .filter-bar .btn-default:focus, 
+#oicr-ui-core-publications .filter-bar .btn-default:hover {
+  background-color: #fafafb;
+  color: #d53f46;
+}
+
+#oicr-ui-core-publications fieldset {
+  border-bottom: none;
+}
+
+#oicr-ui-core-publications .filter-bar input {
+  background-color: #f9f9fa;
+}
+
+#oicr-ui-core-publications .sub-content p {
+  margin-bottom: 0;
+}
+
+#oicr-ui-core-publications .sub-content p a {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#oicr-ui-core-publications .sub-content p a:hover {
+  color: #23527c;
+}
+
+#oicr-ui-core-publications .view-pub-and-pres-by-group .views-row {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+#oicr-ui-core-publications p.field-title_txt, 
+#oicr-ui-core-publications .field-title,
+#oicr-ui-core-publications .view-pub-and-pres-by-group .field-title {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .filter-bar .upper-bar div {
+    width: 100%;
+    display: inline;
+  }
+
+  #oicr-ui-core-publications .upper-bar input[type=text], 
+  #oicr-ui-core-publications .filter-bar select,
+  #oicr-ui-core-publications .filter-bar div {
+    display: inline;
+  }
+
+  #oicr-ui-core-publications .upper-bar .form-group {
+    margin-right: 5px;
+  }
+
+  #oicr-ui-core-publications .filter-bar fieldset {
+    display: inline;
+    width: 65%;
+  }
+
+  #oicr-ui-core-publications .filter-bar .lower-bar select {
+    width: 38%;
+  }
+
+  #oicr-ui-core-publications .filter-bar .lower-bar select:first-child {
+    margin-right: 15px;
+  }
+
+  #oicr-ui-core-publications .lower-bar > fieldset > .form-group {
+    margin-right: 10px;
+  }
+
+  #oicr-ui-core-publications .filter-bar div.lower-bar,
+  #oicr-ui-core-publications .filter-bar div.upper-bar {
+    display: block;
+  }
+
+}
 
 /*search--------------------------------------------------------------------- */
 #publication-search .form-group {
