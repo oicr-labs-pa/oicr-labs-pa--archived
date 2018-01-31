@@ -3,6 +3,8 @@ title: Meet The Team
 layout: team
 permalink: /team/
 cssfield: team.css
+published: true
+isPublic_b: true
 
 title_txt: "Meet The Team"
 subtitle_txt: "Dr. Philip Awadalla, Principal Investigator"

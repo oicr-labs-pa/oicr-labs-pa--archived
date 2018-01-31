@@ -2,7 +2,8 @@
 layout: home
 permalink: /
 cssfield: home.css
-
+published: true
+isPublic_b: true
 
 ########################################
 

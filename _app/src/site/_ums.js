@@ -8,7 +8,7 @@ import {
     getUserInfo,
     Components,
 } from 'oicr-ui-core/lib/ums';
-
+import LoginButton from './UserNav/LoginButton';
 import { Publications, setAllConfigs } from 'oicr-ui-core';
 
 /**
@@ -48,7 +48,7 @@ if (targetUserMenu) {
     );
 }
 
-/*
+
 // Login link
 const targetLoginMenu = document.getElementById('nav-login-desktop');
 if (targetLoginMenu) {
@@ -59,7 +59,7 @@ if (targetLoginMenu) {
         targetLoginMenu,
     );
 }
-*/
+
 
 // Render Git Edit Button
 const targetGitEditButtons = document.getElementById('app-git-edit');

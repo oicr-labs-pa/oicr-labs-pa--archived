@@ -3,8 +3,9 @@ title: About Us
 layout: about
 permalink: /about/
 cssfield: about.css
+published: true
+isPublic_b: true
 
-title_txt:
 about:
   content_list:
     - "A lively team with a specialized skill set."

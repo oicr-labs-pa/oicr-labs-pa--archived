@@ -4,6 +4,8 @@ title: Contact Us
 layout: contact-mc
 permalink: /contact/
 cssfield: contact.css
+published: true
+isPublic_b: true
 
 title_txt: "Contact Us"
 subtitle_txt: "If you have any questions or would like to get involved with our lab, please send us a message below:"

@@ -3,6 +3,8 @@ title: Join The Team
 layout: join
 permalink: /join/
 cssfield: join.css
+published: true
+isPublic_b: true
 
 title_txt: "Join the Team"
 subtitle_txt: "Philip Awadalla has trained and continues to train 14 graduate students and PDFs and many of his former students have gone on to become university faculty and postdoctoral fellows. Our preference is to take on Ph.D. students but we are also willing to supervise M.Sc. students."
