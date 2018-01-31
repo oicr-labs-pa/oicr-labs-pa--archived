@@ -8,7 +8,7 @@ layout: pages-all
         <div class="jumbotron wrapper">
             <div class="container container-jumbotron banner">
                 <div class="col-md-12 banner-content content text-center research-header">
-                    <h1 class="text-uppercase">Big data meets genetic research</h1>
+                    <h1 class="text-uppercase">{{page.title_txt}}</h1>
                 </div>
             </div>
         </div>
@@ -18,23 +18,22 @@ layout: pages-all
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
+                {% for item in page.about.content_list%}
+                    {% if forloop.first %}
                     <div class="paragraph-lead">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </strong>
-                        </p>
+                        <p><strong>
+                         {{item}}
+                        </strong></p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong>Recusandae cum fugit perspiciatis
-                        iusto omnis porro numquam blanditiis explicabo excepturi nostrum voluptatum dolor id totam delectus
-                        ratione rem, molestiae doloribus repellat.</p>
+                    {% else %}
+                        <p>
+                            {{item}}
+                        </p>
+                    {% endif %}
+                {% endfor %}
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="/assets/site/images/test.png" alt="">
+                    <img src={{page.about.image_txt}} alt="">
                 </div>
             </div>
         </div>
@@ -44,34 +43,19 @@ layout: pages-all
         <div class="grey-section">
             <div class="container">
                 <div class="row text-center research-teaser">
-                    <h2>Research Themes</h2>
-                    <div class="col-xs-12 col-md-4">
-                        <img src="/assets/site/images/icon-precision-medicine.svg" alt="Research Icon">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet,</strong>
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet,vLorem ipsum
-                            dolor sit amet,
-                        </p>
-                        <div class="horizontal-line"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-4">
-                        <img src="/assets/site/images/icon-cancer-and-infectious-agents.svg" alt="Research Icon">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet,</strong>
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet,vLorem ipsum
-                            dolor sit amet,
-                        </p>
-                        <div class="horizontal-line"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-4">
-                        <img src="/assets/site/images/icon-prediagnosis.svg" alt="Research Icon">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet,</strong>
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet,</p>
-                    </div>
+                    <h2>{{page.researchThemes.title_txt}}</h2>
+                    {% for item in page.researchThemes.themes_list %}
+                        <div class="col-xs-12 col-md-4">
+                            <img src= {{item.icon_txt}} alt="Research Icon">
+                            <p>
+                                <strong>{{item.title_txt}}</strong>
+                            </p>
+                            <p>
+                                {{item.subtitle_txt}}
+                            </p>
+                            <div class="horizontal-line"></div>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -80,43 +64,18 @@ layout: pages-all
         <!-- ongoing projects -->
         <div class="container text-center ongoing-research">
             <h2>
-                <img src="/assets/site/images/icon-projects.svg" class="image-icon" alt="project-icon">Ongoing Research Projects</h2>
+                <img src={{page.researchProjects.icon_txt}} class="image-icon" alt="project-icon">{{page.researchProjects.title_txt}}
+            </h2>
             <div class="row ongoing-research-list">
-                <div class="col-xs-12 col-md-4 grey-box text-left">
-                    <div class="project-description box-content">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                {% for item in page.researchProjects.projects_list %}
+                    <div class="col-xs-12 col-md-4 grey-box text-left">
+                        <div class="project-description box-content">
+                            <p>
+                                <strong>{{item.title_txt}}</strong> {{item.subtitle_txt}}
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-md-4 grey-box text-left">
-                    <div class="project-description box-content">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 grey-box text-left">
-                    <div class="project-description box-content">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 grey-box text-left">
-                    <div class="project-description box-content">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 grey-box text-left">
-                    <div class="project-description box-content">
-                        <p>
-                            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
         <!-- ongoing projects -->
@@ -127,21 +86,23 @@ layout: pages-all
                 <div class="row text-center resources">
                     <div class="col-xs-12 col-md-7 text-left">
                         <h2>
-                            <img src="/assets/site/images/icon-resources.svg" class="image-icon" alt="resource icon">Resources</h2>
-                        <div class="col-xs-12 col-md-3 no-gutters label-side">
-                            <div class="resource-label">
-                                <p>presentation</p>
+                        <img src={{page.resources.icon_txt}} class="image-icon" alt="resource icon">{{page.resources.title_txt}}</h2>
+                        {% for item in page.resources.resources_list %}
+                            <div class="col-xs-12 col-md-3 no-gutters label-side">
+                                <div class="resource-label">
+                                    <p>{{item.type_txt}}</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-md-9">
-                            <p>
-                                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.</p>
-                        </div>
+                            <div class="col-xs-12 col-md-9">
+                                <p>
+                                    <a href={{item.link_txt}}>{{item.title_txt}}</a>
+                                     - {{item.author_txt}}
+                                </p>
+                            </div>
+                        {% endfor %}
                     </div>
                     <div class="col-xs-12 col-md-5 text-left">
-                        <img src="/assets/site/images/awadalla-lab-team-photo.jpg" alt="Team Picture">
+                        <img src={{page.resources.image_txt}} alt="Team Picture">
                     </div>
                 </div>
             </div>
@@ -152,17 +113,17 @@ layout: pages-all
         <div class="container">
             <div class="row page-bottom">
                 <div class="col-xs-12 col-md-4">
-                    <img src="/assets/site/images/awadalla-lab-team-photo2.jpg" alt="Team Photo">
+                    <img src={{page.innovativeCollaborativeBox.image_txt}} alt="Team Photo">
                 </div>
                 <div class="col-xs-12 col-md-4">
-                    <h3>Innovative and Collaborative</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    <a href="about.html" class="btn btn-primary icon-arrow">About us</a>
+                    <h3>{{page.innovativeCollaborativeBox.title_txt}}</h3>
+                    <p>{{page.innovativeCollaborativeBox.content_txt}}</p>
+                    <a href={{page.innovativeCollaborativeBox.link_txt}} class="btn btn-primary icon-arrow">{{page.innovativeCollaborativeBox.button_txt}}</a>
                 </div>
                 <div class="col-xs-12 col-md-4">
-                    <h3>Call for Collaboration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    <a href="contact.html" class="btn btn-primary icon-arrow">Contact Us</a>
+                    <h3>{{page.collabBox.title_txt}}</h3>
+                    <p>{{page.collabBox.content_txt}}</p>
+                    <a href={{page.collabBox.link_txt}} class="btn btn-primary icon-arrow">{{page.collabBox.button_txt}}</a>
                 </div>
             </div>
         </div>

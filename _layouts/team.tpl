@@ -8,7 +8,7 @@ layout: pages-all
         <div class="jumbotron wrapper">
             <div class="container container-jumbotron banner">
                 <div class="col-md-12 banner-content content text-center">
-                    <h1 class="text-uppercase">{{ page.title }}</h1>
+                    <h1 class="text-uppercase">{{page.title_txt}}</h1>
                 </div>
             </div>
         </div>
@@ -18,10 +18,13 @@ layout: pages-all
         <div class="container investigator-section">
             <div class="row">
                 <div class="col-xs-12 col-md-8">
-                    {{ content }}
+                    <h2>{{page.subtitle_txt}}</h2>
+                    <p>
+                    {{page.main_txt}}
+                    </p>
                 </div>
                 <div class="col-xs-12 col-md-4">
-                    <img src="/assets/site/images/awadalla.png" alt="">
+                    <img src={{page.image_txt}} alt="">
                 </div>
             </div>
         </div>
@@ -83,8 +86,8 @@ layout: pages-all
                             <div class="team-text">
                                 <p>{{ page.join.title_txt }}</p>
                                 <p>{{ page.join.detail_txt }}
-                                    <a href="" class="icon-arrow text-uppercase">
-                                        {{ page.join.title_txt }}</a>
+                                    <a href={{ page.join.link_txt}} class="icon-arrow text-uppercase">
+                                        {{ page.join.button_txt }}</a>
                                 </p>
                             </div>
                         </div>
