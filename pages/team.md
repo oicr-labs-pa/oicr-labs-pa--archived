@@ -6,24 +6,25 @@ cssfield: team.css
 published: true
 isPublic_b: true
 
+title_txt: "Meet The Team"
+subtitle_txt: "Dr. Philip Awadalla, Principal Investigator"
+main_txt: "Dr. Philip Awadalla, PhD, is Director of Computational Biology and Senior Investigator at the Ontario Institute for Cancer Research, Professor of Population and Medical Genomics at the University of Toronto and is a Director and Principal Investigator of the Ontario Health Study/Canadian Partnership for Tomorrow Project. He is also the Director of the Genome Canada Canadian Data Integration Centre. Dr. Awadalla was trained at the University of Edinburgh and his team focuses on the development of next-generation genomics approaches, model-based tools and population-based approaches to study mutation rates, genome biology and cancer. His team’s research also focuses on systems and population genomics approaches to capture signals in population-based samples or families as well as tools to capture rare or de novo variants and pathways, potentially critical to disease phenotypes. Dr. Awadalla’s main research interests include identifying genomic determinants of blood disorders and cancers, understanding mutation and recombination biology and genomic epidemiology of age-related disorders in population cohorts."
+image_txt: "/assets/site/images/awadalla.png"
+
 readBio_txt: Read Bio
 
 join:
     title_txt: Join the Team
     image_txt: /assets/site/images/icon-people.svg
     detail_txt: If you think you would be a great fit with our team please explore our opportunities
+    button_txt: "Join The Team"
+    link_txt: "/join/"
 
 alumni:
     title_txt: Alumni
     types_list:
       - type_txt: Postdocs
-      - type_txt: Phd. Students
+      - type_txt: PhD. Students
       - type_txt: MSc. / DESS Students
       - type_txt: Staff
 ---
-
-## Dr. Philip Awadalla, Principel Investigator
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. [nim ad minim veniam, quis nostrud exercitation]() ex ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es.

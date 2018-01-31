@@ -5,18 +5,18 @@ import { Router, hashHistory } from 'react-router';
 import {
     BaseRoutes,
     Provider as CoreProvider,
-    setConfig,
     getUserInfo,
     Components,
 } from 'oicr-ui-core/lib/ums';
 import LoginButton from './UserNav/LoginButton';
+import { Publications, setAllConfigs } from 'oicr-ui-core';
 
 /**
  * Set UMS
  */
 
 // Override default user configuration
-setConfig(window.UMS_CONFIG);
+setAllConfigs(window.UMS_CONFIG);
 
 // Load store.
 const store = require('./store').default;
@@ -68,9 +68,25 @@ if (targetGitEditButtons) {
         <CoreProvider store={store}>
             <Components.GitEditButton
                 path={targetGitEditButtons.getAttribute('data-path')}
-                gitRepository={targetGitEditButtons.getAttribute('data-gitrepo')}
+                gitRepository={targetGitEditButtons.getAttribute(
+                    'data-gitrepo',
+                )}
             />
         </CoreProvider>,
         targetGitEditButtons,
+    );
+}
+
+// Render Publications
+const targetPublications = document.getElementById('app-publications');
+
+if (targetPublications) {
+    ReactDOM.render(
+        <CoreProvider store={store}>
+            <Router history={hashHistory}>
+                <Publications.BaseRoutes />
+            </Router>
+        </CoreProvider>,
+        targetPublications,
     );
 }
