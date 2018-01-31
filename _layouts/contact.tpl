@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages-all
 ---
 <div id="page-wrapper" class="page-wrapper">
     <div id="page" class="page">
