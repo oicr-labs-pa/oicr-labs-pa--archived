@@ -36,12 +36,11 @@
                 <div class="wfui-search-container-nav">
                     <form id="awadalla-search" class="form-inline webform-search">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="search-jobs-keyword" placeholder="Search" value="" autocomplete="off" />
+                            <input type="text" class="form-control" id="search-awadalla-keywords" placeholder="Search" value="" autocomplete="off" />
                         </div>
                     </form>
                 </div>
                 <!-- search -->
-
                 <!-- MAIN MENU -->
                 <ul id="nav-main-menu" class="my-navbar nav navbar-nav ">
                     {% for item in nav.nav_list %}
