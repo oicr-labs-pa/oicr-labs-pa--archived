@@ -6,11 +6,11 @@ ext.attach(document);
 
 /* Navigation Search */
 $(() => {
-    $('#cbw-nav-search').submit(() => {
-        const keyword = $('#cbw-nav-search-keywords')
+    $('#awadalla-search').submit(() => {
+        const keyword = $('#search-awadalla-keywords')
             .val()
             .trim();
-        if (false) {
+        if (keyword) {
             window.location = `/search/#/${keyword}`;
         }
         return false;
@@ -18,11 +18,11 @@ $(() => {
 });
 /* mobile Search */
 $(() => {
-    $('#cbw-mobile-search').submit(() => {
+    $('#awadalla-mobile-search').submit(() => {
         const keyword = $('#cbw-nav-search-keywords')
             .val()
             .trim();
-        if (false) {
+        if (keyword) {
             window.location = `/search/#/${keyword}`;
         }
         return false;
