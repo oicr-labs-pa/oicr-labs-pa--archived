@@ -1,6 +1,7 @@
 ---
 layout: pages-all
 ---
+{% assign pubs = site._publications | sort: "publishDate_tdt" | reverse %}
 <div id="page-wrapper" class="page-wrapper">
     <div id="page" class="page">
 
@@ -79,95 +80,52 @@ layout: pages-all
                     </div>
 
                     <div class="row">
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="col-xs-12 article">
-                            <a href="" class="publication-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus dicta totam
-                                quam saepe adipisci eveniet
-                            </a>
-                            <p class="result-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="reference-number">
-                                <strong>Cancer Research. 2017</strong>. doi:
-                                <a href="">10.1158/1538-7445.AM2017-SY10-2</a>
-                            </p>
-                        </div>
+                        {% for pub in pubs %}
+                            <div class="col-xs-12 article pub-{{ pub.publicationType_txt }}">
+                                <a href="{% if pub.link_txt %}{{ pub.link_txt  }}{% elsif pub.attachment_txt %}{{ pub.attachment_txt }}{% endif %}" class="publication-title {% if pub.attachment_txt %}publication-attachment{% endif %}">{{ pub.title_txt }}</a>
+                                {% if pub.authors_list[0].highlight_b == true %}
+                                    {% capture tempItem %}<strong>{{pub.authors_list[0].author_txt}}</strong>{% endcapture %}
+                                {% else %}
+                                    {% assign tempItem = pub.authors_list[0].author_txt %}
+                                {% endif %}
+                                {% assign authors = tempItem | split: ',' %}
+                                {% for author in pub.authors_list %}
+                                    {% if forloop.first == false %}
+                                        {% if author.highlight_b == true %}
+                                            {% capture tempItem %}<strong>{{author.author_txt}}</strong>{% endcapture %}
+                                            {% assign newItem = tempItem | split: ',' %}
+                                            {% assign authors = authors | concat: newItem %}
+                                        {% else %}
+                                            {% assign newItem = author.author_txt | split: ',' %}
+                                            {% assign authors = authors | concat: newItem %}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% if pub.publicationType_txt == page.types_list.journal_txt %}
+                                    <p class="result-description">
+                                        {{ authors | join: ', '}}
+                                    </p>
+                                    <p class="reference-number">
+                                        <strong>{{ pub.journalTitle_txt }}. {{ pub.publishDate_tdt | date: "%Y" }}. </strong>{% if pub.volume_tl %}{{ pub.volume_tl }}{% if pub.issue_tl %}({{ pub.issue_tl }}). {% endif %}{% endif %}{% if pub.doi_txt %}{{ page.doi_txt }} <a href="https://dx.doi.org/{{pub.doi_txt}}"
+                                        >{{ pub.doi_txt }}</a>{% endif %}
+                                    </p>
+                                {% elsif pub.publicationType_txt == page.types_list.news_txt %}
+                                    <p class="result-description">
+                                        {{ pub.summary_txt }}
+                                    </p>
+                                    <p class="reference-number">
+                                        <strong>{{ pub.newspaperTitle_txt }}. {{ pub.publishDate_tdt | date: "%b %-d, %Y" }}. </strong>{{ page.writtenby_txt }} {{ authors | join: ', ' }}.
+                                    </p>
+                                {% elsif pub.publicationType_txt == page.types_list.presentation_txt %}
+                                    <p class="result-description">
+                                        {{ pub.summary_txt }}
+                                    </p>
+                                    <p class="reference-number">
+                                        <strong>{{ pub.eventTitle_txt }}. {{ pub.publishDate_tdt | date: "%b %-d, %Y" }}. </strong>{{ page.presenter_txt }} {{ authors | join: ', ' }}.
+                                    </p>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
