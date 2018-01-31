@@ -187,7 +187,8 @@
 .dropdown-card-content {
     flex-grow: 1;
     background-color: #eef0f1;
-    height: 150px;
+    min-height: 150px;
+    height: 280px;
 }
 
 /* modal -------------------------------------------------------------------- */

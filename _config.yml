@@ -50,6 +50,9 @@ collections:
   _publications:
     output: false
 
+#formsSiteURL: forms.oicr.on.ca
+formsSiteURL: forms.koji.vm
+
 ######################################################################
 # Jekyll Environment Config
 ######################################################################
