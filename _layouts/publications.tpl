@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages-all
 ---
 {% assign pubs = site._publications | sort: "publishDate_tdt" | reverse %}
 <div id="page-wrapper" class="page-wrapper">

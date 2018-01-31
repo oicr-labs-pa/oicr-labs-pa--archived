@@ -18,7 +18,7 @@
             <hr>
             <div class="row">
                 <div class="col-sm-6 copy">
-                    <p>@Copyright Awadalla Research Laboratory 2017</p>
+                    <p>&copy; Awadalla Research Laboratory 2017</p>
                 </div>
                 <div class="col-sm-6 policy">
                     <a href=#>Terms and Conditions</a>
