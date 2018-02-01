@@ -1,6 +1,6 @@
 window.UMS_CONFIG = {
-    APP_ID: '59c518f843570c4f1f561546',
-    API_HOST: 'forms-api.koji.vm:443',
+    APP_ID: 'webdevff0b3218aaad11e7abc4cec278b6b50a_APP_ID',
+    API_HOST: 'webdevff0b3218aaad11e7abc4cec278b6b50a_API_HOST:webdevff0b3218aaad11e7abc4cec278b6b50a_API_DOCKER_PORT',
     CONTACT_LINK: 'mailto:webdev.oicr@gmail.com',
 };
 window.extLinkConfig = {
