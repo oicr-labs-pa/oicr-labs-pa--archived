@@ -255,6 +255,36 @@ h2.title {
 .container-footer {
     padding: 0;
 }
+.container-header.container-user-nav,
+#app-user-nav .container-fluid {
+    background-color: #212322;
+    color: #fff;
+}
+#user-nav-row {
+    margin-bottom: 0;
+}
+#app-user-nav ul span {
+    color: #fff;
+}
+#app-user-nav a {
+    text-decoration: none;
+}
+#app-user-nav
+    .menu-user
+    .nav-pills
+    > li
+    button.dropdown-toggle.btn.btn-default {
+    padding: 15px 15px 15px 35px;
+}
+#app-user-nav .menu-user ul span {
+    color: #212322;
+}
+#app-user-nav .dropdown-menu > li > a:hover {
+    background-color: #212322;
+}
+#app-user-nav .dropdown-menu > li > a:hover > span {
+    color: #fff;
+}
 .grey-section {
     border-top: 2px solid #e9e9ea;
     border-bottom: 2px solid #e9e9ea;
