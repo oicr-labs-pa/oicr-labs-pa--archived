@@ -111,7 +111,7 @@ layout: pages-all
 
         <!-- homepage bottom -->
         <div class="container">
-            <div class="row page-bottom">
+            <div class="row page-bottom page-callout">
                 <div class="col-xs-12 col-md-4">
                     <img src={{page.innovativeCollaborativeBox.image_txt}} alt="Team Photo">
                 </div>

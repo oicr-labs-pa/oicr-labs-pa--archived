@@ -53,7 +53,7 @@ resources:
   image_txt: "/assets/site/images/awadalla-lab-team-photo-montreal-resources.jpg"
 
 innovativeCollaborativeBox:
-  image_txt: "/assets/site/images/awadalla-lab-team-photo2.jpg"
+  image_txt: "/assets/site/images/awadalla-lab-innovative-collaborative.jpg"
   title_txt: Innovative and Collaborative
   content_txt: "Learn about the multi-disciplinary people who do this research and the lively culture they encourage."
   button_txt: "About Us"

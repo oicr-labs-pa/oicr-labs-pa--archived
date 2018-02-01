@@ -152,6 +152,16 @@ nav.navbar {
     padding-left: 0;
 }
 
+.page-callout h3 {
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+    .page-callout h3 {
+        margin-top: 7%;
+    }
+}
+
 @media (max-width: 767px) {
     .resources .resource-label-container {
         width: 100%;
