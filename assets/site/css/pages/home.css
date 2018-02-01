@@ -1,106 +1,103 @@
 @font-face {
-    font-family:'Futura Book';
+    font-family: 'Futura Book';
     src: url('/assets/site/fonts/Futura-Bold.eot');
-	  src: url('/assets/site/fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
-		     url('/assets/site/fonts/Futura-Bold.woff2') format('woff2'),
-		     url('/assets/site/fonts/Futura-Bold.woff') format('woff'),
-		     url('/assets/site/fonts/Futura-Bold.ttf') format('truetype'),
-		     url('/assets/site/fonts/Futura-Bold.otf') format('opentype'),
-		     url('/assets/site/fonts/Futura-Bold.svg#Futura-Bold') format('svg');
-        font-weight: 700;
-        font-style: normal;
-        font-stretch: normal;
-        unicode-range: U+0020-00FE;
+    src: url('/assets/site/fonts/Futura-Bold.eot?#iefix')
+            format('embedded-opentype'),
+        url('/assets/site/fonts/Futura-Bold.woff2') format('woff2'),
+        url('/assets/site/fonts/Futura-Bold.woff') format('woff'),
+        url('/assets/site/fonts/Futura-Bold.ttf') format('truetype'),
+        url('/assets/site/fonts/Futura-Bold.otf') format('opentype'),
+        url('/assets/site/fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00fe;
 }
 
 /*jumbotron------------------------------------------------------------------ */
 .jumbotron {
-  background-image: url("/assets/site/images/awadalla-homepage-population-study.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 70%;
-  padding-top: 100px;
-  padding-bottom: 0;
-  min-height: 750px;
-  margin-bottom: 0;
+    background-image: url('/assets/site/images/awadalla-homepage-population-study.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 40%;
+    padding-top: 100px;
+    padding-bottom: 0;
+    min-height: 700px;
+    margin-bottom: 0;
 }
 .jumbotron .container {
-  padding: 0;
+    padding: 0;
 }
 .jumbotron p {
-  font-size: 20px;
-  line-height: 38px;
+    font-size: 20px;
+    line-height: 38px;
 }
 .jumbotron h1 {
-  font-size: 50px;
-  font-family: "Futura Book", sans-serif;
-  margin-top: 0;
+    font-size: 50px;
+    font-family: 'Futura Book', sans-serif;
+    margin-top: 0;
 }
 .jumbotron p:first-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 .top-text {
-  font-size: 30px;
-  margin-bottom: 0;
-  font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: normal;
 }
 @media (max-width: 767px) {
-  .jumbotron {
-    background-position: unset;
-  }
+    .jumbotron {
+        background-position: unset;
+    }
 }
 nav.navbar {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .select-menu {
-  display: none;
+    display: none;
 }
 
 /* Banner  ------------------------------------------------------------------ */
 .banner-content {
-  margin-top: 120px;
+    margin-top: 120px;
 }
 .banner-icons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 .banner-icons div p {
-  font-weight: bold;
-  padding: 3px 20px;
-  background-color: #fff;
-  border: 2px solid #000;
-  border-radius: 3px;
+    font-weight: bold;
+    padding: 3px 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 3px;
 }
 .banner-icons div:first-child {
-  margin-right: -3px;
+    margin-right: -3px;
 }
 .banner-icons div:last-child {
-  margin-left: -3px;
+    margin-left: -3px;
 }
 .banner-icons img {
-  margin-left: 1px;
-  margin-top: 62px;
-  height: 44px;
-  width: auto;
+    margin-left: 1px;
+    margin-top: 62px;
+    height: 44px;
+    width: auto;
 }
 
-
-
-@media (max-width: 767px){
-  .banner-icons div p {
-    font-size: 14px;
-    padding: 5px;
-  }
-  .genetics-icon,
-  .bioinformatic-icon {
-    background-position: center;
-  }
+@media (max-width: 767px) {
+    .banner-icons div p {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .genetics-icon,
+    .bioinformatic-icon {
+        background-position: center;
+    }
 }
-
 
 /* typography --------------------------------------------------------------- */
 .about-us h2 {
-  margin-bottom: 17px;
+    margin-bottom: 17px;
 }
-
