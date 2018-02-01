@@ -64,3 +64,39 @@
 .oicr-search-results {
     padding: 20px 0;
 }
+
+/* oicr-search-group  ----------------------------------------------------------------- */
+.oicr-search-group {
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+}
+
+.oicr-search-group label {
+    width: 100px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+@media (max-width: 991px) {
+    .oicr-search-group {
+        width: 100%;
+    }
+}
+
+/* oicr-search-results-list ----------------------------------------------------------------- */
+.oicr-search-results-list {
+    padding-top: 40px;
+}
+
+.oicr-search-results-list li {
+    margin-left: 20px;
+}
+
+.oicr-search-results-list li:before {
+    font-size: 16px;
+}
+
+.oicr-search-results-list h3.oicr-search-result-title {
+    font-size: 16px;
+}
