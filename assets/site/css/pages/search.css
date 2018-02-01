@@ -1,0 +1,66 @@
+.container-edit {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*jumbotron ----------------------------------------------------------------- */
+.jumbotron {
+    background-image: url('/assets/site/images/banner-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70%;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #e9e9ea;
+    padding: 0;
+}
+.jumbotron h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.jumbotron .content {
+    margin-bottom: 0;
+}
+.jumbotron .container {
+    padding: 0;
+}
+
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 35px;
+        font-weight: normal;
+    }
+}
+
+/* oicr-search-box  ----------------------------------------------------------------- */
+.oicr-search-box {
+    border: 1px solid #dce1e5;
+    padding: 15px;
+    width: 100%;
+}
+
+.oicr-search-box .input-group-btn > .btn {
+    border-color: #0f72b8;
+    color: #0f72b8;
+}
+
+.oicr-search-box .input-group-btn > .btn:hover {
+    color: #d53f46;
+    background-color: #fff;
+}
+
+/* oicr-search-content  ----------------------------------------------------------------- */
+.oicr-search-content {
+    margin: 20px 15px;
+}
+
+/* oicr-search-results  ----------------------------------------------------------------- */
+.oicr-search-results {
+    padding: 20px 0;
+}
