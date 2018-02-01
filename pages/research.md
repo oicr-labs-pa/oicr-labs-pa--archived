@@ -43,14 +43,14 @@ researchProjects:
       subtitle_txt: "Genome sequencing of new and old-world isolates of Plasmodium falciparum and related malaria species."
 
 resources:
-  title_txt:
+  title_txt: Resources
   icon_txt: "/assets/site/images/icon-resources.svg"
   resources_list:
     - type_txt: "Presentation"
       title_txt: "A common pan-cancer gene set predicts the tumor or normal state of tissue biopsies"
       link_txt: ""
       author_txt: "Fabien Lamaze, M Agbessi, V Bruat, J-C Grenier, P Awadalla"
-  image_txt: "/assets/site/images/awadalla-lab-team-photo.jpg"
+  image_txt: "/assets/site/images/awadalla-lab-team-photo-montreal-resources.jpg"
 
 innovativeCollaborativeBox:
   image_txt: "/assets/site/images/awadalla-lab-team-photo2.jpg"
