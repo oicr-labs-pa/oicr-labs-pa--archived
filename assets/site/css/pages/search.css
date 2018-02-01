@@ -65,6 +65,10 @@
     padding: 20px 0;
 }
 
+.oicr-search-results-head h2 {
+    margin-bottom: 20px;
+}
+
 /* oicr-search-group  ----------------------------------------------------------------- */
 .oicr-search-group {
     width: 400px;
