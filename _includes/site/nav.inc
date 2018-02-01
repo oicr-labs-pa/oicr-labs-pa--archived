@@ -46,7 +46,7 @@
                         {% if item.dropdown_list %}
                             {% assign links = item.dropdown_list | map: 'link_txt' %}
                             <li role="presentation" class="nav-item dropdown {% if page.permalink == item.link_txt %}active{% elsif links contains page.permalink %}active{% endif %}">
-                                <a class="nav-link dropdown-toggle text-uppercase" href="{{item.link_txt}}" id="navDropdown{{ item.title_txt | replace: ' ', '' }}" role="button" data-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle text-uppercase" href="{{item.link_txt}}" id="navDropdown{{ item.title_txt | replace: ' ', '' }}" role="button"
                                     aria-haspopup="true" aria-expanded="false">{{ item.title_txt }}
                                     <span class="caret"></span>
                                 </a>

@@ -302,6 +302,13 @@ h2.title {
 .container-main {
     margin-bottom: 50px;
 }
+
+@media (min-width: 1350px) {
+    .container {
+        width: 1290px;
+    }
+}
+
 @media (min-width: 1200px) {
     .container-main,
     .container-content {
