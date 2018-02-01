@@ -156,3 +156,7 @@ textarea.form-control {
 #greptcha-insert {
   margin-bottom: 20px;
 }
+
+.form-control[name="QUESTIONS"]{
+  height: 150px;
+}
