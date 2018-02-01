@@ -45,6 +45,12 @@
     margin-bottom: 0;
     font-weight: normal;
 }
+
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+}
 @media (max-width: 767px) {
     .jumbotron {
         background-position: unset;

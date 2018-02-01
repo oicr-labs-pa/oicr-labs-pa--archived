@@ -37,14 +37,16 @@ layout: pages-all
                     {% assign d = site._team %}
                     {% for person in d %}
                         <!-- Person -->
-                        <div class="col-xs-12 col-sm-6 col-md-2 wfui-card wfui-card-container person text-left">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 wfui-card wfui-card-container person text-left">
                             <div role="body" class="wfui-card-body">
-                                <img src="{{ person.profilePic_txt }}" alt="Profile picture of {{ person.firstName_txt }} {{ person.lastName_txt }}" class="member-img">
-                                <div class="card-content">
-                                    <h5 class="member-name">{{ person.firstName_txt }} {{ person.lastName_txt }}</h5>
-                                    <p class="member-position">{{ person.position_txt }}</p>
-                                    <a id="member-modal-link{{ forloop.index }} href="" data-toggle="modal" data-target="#member-modal{{ forloop.index }}" class="icon-arrow text-uppercase">{{ page.readBio_txt }}</a>
-                                </div>
+                                <a id="member-modal-link{{ forloop.index }} href="" data-toggle="modal" data-target="#member-modal{{ forloop.index }}" class="text-uppercase">
+                                    <img src="{{ person.profilePic_txt }}" alt="Profile picture of {{ person.firstName_txt }} {{ person.lastName_txt }}" class="member-img">
+                                    <div class="card-content">
+                                        <h5 class="member-name">{{ person.firstName_txt }} {{ person.lastName_txt }}</h5>
+                                        <p class="member-position">{{ person.position_txt }}</p>
+                                        <span class="icon-arrow text-uppercase">{{ page.readBio_txt }}</span>
+                                    </div>
+                                </a>
 
                                 <!-- Person Modal -->
                                 <div id="member-modal{{ forloop.index }}" class="modal fade" role="dialog">
@@ -115,9 +117,11 @@ layout: pages-all
                                             <div class="col-xs-12 col-sm-6 col-md-3 dropdown-card ">
                                                 <div class="dropdown-card-content box-content">
                                                     <h5>{{ person.firstName_txt }} {{ person.lastName_txt}}</h5>
+                                                    <!--
                                                     {% if person.position_txt and person.position_txt.size > 0 %}<p class="alumni-position">{{ person.position_txt }}</p>{% endif %}
                                                     {% if person.affiliation_txt and person.affiliation_txt.size > 0 %}<p class="alumni-affiliation_txt">{{ person.affiliation_txt }}</p>{% endif %}
                                                     {% if person.location_txt and person.location_txt.size > 0 %}<p class="alumni-location_txt">{{ person.location_txt }}</p>{% endif %}
+                                                    -->
                                                 </div>
                                             </div>
                                         {% endfor %}

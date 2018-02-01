@@ -71,11 +71,11 @@ layout: pages-all
                 </div>
                 <div class="col-xs-12 col-md-6 forum-right">
                     <div class="forum-description box-content form-info">
-                        <div class="text-left">
-                            <p>{{page.captionLeft_txt}}</p>
+                        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+                            <p>{{page.captionLeft_txt | markdownify}}</p>
                         </div>
-                        <div class="text-left">
-                            <p>{{page.captionRight_txt}}</p>
+                        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+                            <p><strong>{{page.captionRight_txt}}</strong></p>
                         </div>
                     </div>
                     <div class="forum-pictures">

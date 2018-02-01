@@ -5,7 +5,6 @@ permalink: /research/
 cssfield: research.css
 published: true
 isPublic_b: true
----
 
 title_txt: "Big Data Meets Genetic Research"
 about:
@@ -44,17 +43,17 @@ researchProjects:
       subtitle_txt: "Genome sequencing of new and old-world isolates of Plasmodium falciparum and related malaria species."
 
 resources:
-  title_txt:
+  title_txt: Resources
   icon_txt: "/assets/site/images/icon-resources.svg"
   resources_list:
     - type_txt: "Presentation"
       title_txt: "A common pan-cancer gene set predicts the tumor or normal state of tissue biopsies"
       link_txt: ""
       author_txt: "Fabien Lamaze, M Agbessi, V Bruat, J-C Grenier, P Awadalla"
-  image_txt: "/assets/site/images/awadalla-lab-team-photo.jpg"
+  image_txt: "/assets/site/images/awadalla-lab-team-photo-montreal-resources.jpg"
 
 innovativeCollaborativeBox:
-  image_txt: "/assets/site/images/awadalla-lab-team-photo2.jpg"
+  image_txt: "/assets/site/images/awadalla-lab-innovative-collaborative.jpg"
   title_txt: Innovative and Collaborative
   content_txt: "Learn about the multi-disciplinary people who do this research and the lively culture they encourage."
   button_txt: "About Us"
@@ -66,4 +65,3 @@ collabBox:
   button_txt: "Contact Us"
   link_txt: "/contact/"
 ---
-   

@@ -34,7 +34,7 @@ layout: pages-all
                 <div class="row">
                     <div class="col-xs-12 text-center about-us">
                         <h2 class="about-us">{{page.aboutUs.title_txt}}</h2>
-                        <p>{{page.aboutUs.content_txt}}</p>
+                        <p>{{page.aboutUs.content_txt | markdownify}}</p>
                         <a href={{page.aboutUs.link_txt}} class="btn btn-primary icon-arrow">{{page.aboutUs.button_txt}}</a>
                     </div>
                 </div>
