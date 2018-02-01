@@ -8,7 +8,7 @@ layout: pages-all
         <div class="jumbotron wrapper">
             <div class="container container-jumbotron banner">
                 <div class="col-md-12 banner-content content text-center">
-                    <h1 class="text-uppercase">About US</h1>
+                    <h1 class="text-uppercase">{{ page.title }}</h1>
                 </div>
             </div>
         </div>
