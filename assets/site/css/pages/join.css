@@ -1,97 +1,102 @@
 /* Page title Section ------------------------------------------------------- */
 .jumbotron {
-  background-image: url("/assets/site/images/banner-background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 70%;
-  border-top: 2px solid #cccccc;
-  border-bottom: 2px solid #e9e9ea;
-  padding: 0;
+    background-image: url('/assets/site/images/banner-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70%;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #e9e9ea;
+    padding: 0;
 }
 .jumbotron h1 {
-  font-size: 50px;
-  font-weight: normal;
+    font-size: 50px;
+    font-weight: normal;
 }
 .jumbotron .content {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 .jumbotron .container {
-  padding: 0;
+    padding: 0;
+}
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
 }
 @media (max-width: 767px) {
-  .jumbotron h1 {
-    font-size: 35px;
-  }
+    .jumbotron h1 {
+        font-size: 35px;
+    }
 }
 nav.navbar {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 /* join top Section --------------------------------------------------------- */
 .join-description {
-  padding-top: 0;
-  padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 
 .join-description p {
-  font-size: 20px;
-  line-height: 33px;
+    font-size: 20px;
+    line-height: 33px;
 }
 
 .join-description img {
-  height: 80px;
-  width: 80px;
+    height: 80px;
+    width: 80px;
 }
 /* graduate Section --------------------------------------------------------- */
 .graduate-teaser h3 {
-  margin-bottom: 15px;
-  line-height: normal;
+    margin-bottom: 15px;
+    line-height: normal;
 }
 .graduate-teaser ul {
-  margin-left: 1.5em;
-  color: #37b375;
+    margin-left: 1.5em;
+    color: #37b375;
 }
 .graduate-teaser ul li {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .graduate-teaser ul span {
-  color: #000;
+    color: #000;
 }
 .graduate-teaser div:first-child p:first-child {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 @media (max-width: 767px) {
-  .graduate-teaser div:first-child {
-    margin-bottom: 30px;
-  }
+    .graduate-teaser div:first-child {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 576px) {
-  .border-box {
-    text-align: center;
-    display: block;
-  }
-  .border-box img {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
+    .border-box {
+        text-align: center;
+        display: block;
+    }
+    .border-box img {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
 
-  .border-box .btn-primary {
-    margin: 0;
-  }
+    .border-box .btn-primary {
+        margin: 0;
+    }
 }
 
 /* undergrad Section -------------------------------------------------------- */
 .undergradute-section img {
-  padding-top:10px;
+    padding-top: 10px;
 }
 
 /* specific regions --------------------------------------------------------- */
 .border-box img {
-  height: 60px;
-  width: 60px;
-  padding-top: 0;
+    height: 60px;
+    width: 60px;
+    padding-top: 0;
 }
 .border-box .btn {
-  padding: 8px 50px;
+    padding: 8px 50px;
 }
