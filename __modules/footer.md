@@ -23,8 +23,8 @@ logo_list:
 links_list:
   - title_txt: Terms and Conditions
     link_txt: https://oicr.on.ca/terms-and-conditions/
-  - title_txt: Policy
-    link_txt: https://oicr.on.ca/oicr-policies-and-procedures
+  - title_txt: Privacy
+    link_txt: https://oicr.on.ca/website-privacy-statement/
 
 ########################################
 ---
