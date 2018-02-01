@@ -30,7 +30,6 @@
                 </button>
 
             </div>
-
             <div class="search-collapse collapse navbar-collapse" id="navbar-collapse-1">
                 <!-- SEARCH -->
                 <div class="wfui-search-container-nav">
@@ -45,21 +44,22 @@
                 <ul id="nav-main-menu" class="my-navbar nav navbar-nav ">
                     {% for item in nav.nav_list %}
                         {% if item.dropdown_list %}
-                            <li role="presentation" class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-uppercase" href="{{item.link_txt}}" id="navDropdown{{ item.title_txt | replace: ' ', '' }}" role="button" data-toggle="dropdown"
+                            {% assign links = item.dropdown_list | map: 'link_txt' %}
+                            <li role="presentation" class="nav-item dropdown {% if page.permalink == item.link_txt %}active{% elsif links contains page.permalink %}active{% endif %}">
+                                <a class="nav-link dropdown-toggle text-uppercase" href="{{item.link_txt}}" id="navDropdown{{ item.title_txt | replace: ' ', '' }}" role="button"
                                     aria-haspopup="true" aria-expanded="false">{{ item.title_txt }}
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navDropdown{{ item.title_txt | replace: ' ', '' }}">
                                     {% for drop in item.dropdown_list %}
-                                        <li>
+                                        <li class="{% if page.permalink == drop.link_txt %}active{% endif %}">
                                             <a class="dropdown-item" href="{{ drop.link_txt }}">{{ drop.title_txt }}</a>
                                         </li>
                                     {% endfor %}
                                 </ul>
                             </li>
                         {% else %}
-                            <li role="presentation" class="nav-item text-uppercase">
+                            <li role="presentation" class="nav-item text-uppercase {% if page.permalink == item.link_txt %}active{% endif %}">
                                 <a href="{{ item.link_txt }}">{{ item.title_txt }}</a>
                             </li>
                         {% endif %}
