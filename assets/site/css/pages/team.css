@@ -18,6 +18,11 @@
 .jumbotron .container {
     padding: 0;
 }
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+}
 
 @media (max-width: 767px) {
     .jumbotron h1 {
@@ -66,13 +71,7 @@
 
 @media (min-width: 992px) {
     .person {
-        height: 339.656px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .person {
-        height: 323px;
+        height: 370px;
     }
 }
 
@@ -187,8 +186,7 @@
 .dropdown-card-content {
     flex-grow: 1;
     background-color: #eef0f1;
-    min-height: 150px;
-    height: 280px;
+    height: 50px;
 }
 
 /* modal -------------------------------------------------------------------- */

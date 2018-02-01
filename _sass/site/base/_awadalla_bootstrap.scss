@@ -92,7 +92,8 @@ a:hover {
 }
 p a:hover,
 li a:hover {
-    color: #000;
+    color: #d53f46;
+    text-decoration: underline;
 }
 
 .paragraph-lead strong {
@@ -131,7 +132,7 @@ li a:hover {
 .btn-primary {
     border-color: #0f72b8;
     color: #000;
-    padding: 5px 20px;
+    padding: 9px 30px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -154,10 +155,6 @@ li a:hover {
     color: #d53f46;
     background-color: #fafafb;
     border-color: #0f72b8;
-}
-
-.page-bottom .btn-primary {
-    padding: 8px 30px;
 }
 @media (max-width: 767px) {
     .btn-primary {
@@ -306,6 +303,13 @@ h2.title {
 .container-main {
     margin-bottom: 50px;
 }
+
+@media (min-width: 1350px) {
+    .container {
+        width: 1290px;
+    }
+}
+
 @media (min-width: 1200px) {
     .container-main,
     .container-content {
@@ -328,6 +332,7 @@ h2.title {
 .page-bottom h3 {
     margin-top: 7%;
     margin-bottom: 15px;
+    color: #000;
 }
 
 /* Main-------------------------------------------------------------- */
