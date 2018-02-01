@@ -7,12 +7,12 @@ layout: pages-all
             <!-- Banner -->
             <div class="jumbotron wrapper">
                 <div class="container container-jumbotron banner">
-                    <div class="col-md-8 col-md-offset-2 banner-content content text-center">
+                    <div class="col-md-10 col-md-offset-1 banner-content content text-center">
                         <p class="text-uppercase">
                             <span class="top-text">{{page.banner.labName_txt}}</span>
                         </p>
                         <h1 class="text-uppercase">{{page.banner.title_txt}}</h1>
-                        <p> {{page.banner.subTitle_txt}}
+                        <p> {{page.banner.subtitle_txt | markdownify}}
                         </p>
                         <div class="banner-icons text-center">
                             <div class="bioinformatic-icon">
