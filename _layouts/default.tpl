@@ -5,6 +5,7 @@
 {% include site/head.inc %}
 </head>
 <body class="page-default {% if page.layout %}page-{{ page.layout }}{% endif %} {% if page.category %} category-{{ page.category }}{% endif %}{% if page.classname %} post-{{ page.classname }}{% endif %} {{ page.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
+    {% include site/ums-nav.inc %}
     {% include site/nav.inc %}
     {{ content }}
     {% include site/footer.inc %}
