@@ -16,7 +16,7 @@ layout: default
         <!-- Banner -->
 
         <!-- search inputs -->
-        <div class="content-box">
+        <!-- <div class="content-box">
             <div class="container ">
                 <div class="row">
                     <div class="col-xs-12 col-lg-offset-1 col-lg-10 search-input">
@@ -58,12 +58,12 @@ layout: default
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- search inputs -->
 
 
         <!-- search results -->
-        <div class="container ">
+        <!-- <div class="container ">
             <div class="row">
                 <div class="col-xs-12 col-md-10 col-md-offset-1">
                     <div class="search-header">
@@ -129,8 +129,14 @@ layout: default
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- search results -->
+
+        <div class="container">
+            <div class="row">
+                <div id="app-publications"></div>
+            </div>
+        </div>
 
     </div>
 </div>

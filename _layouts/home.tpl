@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages-all
 ---
     <div id="page-wrapper" class="page-wrapper">
         <div id="page" class="page">
@@ -9,21 +9,21 @@ layout: default
                 <div class="container container-jumbotron banner">
                     <div class="col-md-8 col-md-offset-2 banner-content content text-center">
                         <p class="text-uppercase">
-                            <span class="top-text">Awadalla Research Lab</span>
+                            <span class="top-text">{{page.banner.labName_txt}}</span>
                         </p>
-                        <h1 class="text-uppercase">Pioneering Genomics For Precision Health</h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua.</p>
+                        <h1 class="text-uppercase">{{page.banner.title_txt}}</h1>
+                        <p> {{page.banner.subTitle_txt}}
+                        </p>
                         <div class="banner-icons text-center">
                             <div class="bioinformatic-icon">
-                                <p class="text-uppercase">bioinformatics</p>
+                                <p class="text-uppercase">{{page.banner.rightBox_txt}}</p>
                             </div>
                             <img src="/assets/site/images/icon-bridge.svg" alt="">
                             <div class="genetics-icon">
-                                <p class="text-uppercase">genetic research</p>
+                                <p class="text-uppercase">{{page.banner.leftBox_txt}}</p>
                             </div>
                         </div>
-                        <a href="research.html" class="btn btn-primary icon-arrow ">Our Research</a>
+                        <a href={{page.banner.link_txt}} class="btn btn-primary icon-arrow ">{{page.banner.button_txt}}</a>
                     </div>
                 </div>
             </div>
@@ -33,12 +33,9 @@ layout: default
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center about-us">
-                        <h2 class="about-us">About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo in porro debitis provident velit fuga
-                            odit. Natus maiores adipisci ipsam saepe tenetur voluptatem repellendus quisquam! Eius voluptatum,
-                            quidem minima molestias.
-                        </p>
-                        <a href="research.html" class="btn btn-primary icon-arrow">More About Us</a>
+                        <h2 class="about-us">{{page.aboutUs.title_txt}}</h2>
+                        <p>{{page.aboutUs.content_txt}}</p>
+                        <a href={{page.aboutUs.link_txt}} class="btn btn-primary icon-arrow">{{page.aboutUs.button_txt}}</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +71,7 @@ layout: default
                                 </p>
                             </div>
                         </div>
-                        <a href="publications.html" class="btn btn-primary text-uppercase icon-arrow">More publications</a>
+                        <a href={{page.publications.link_txt}} class="btn btn-primary text-uppercase icon-arrow">More publications</a>
                     </div>
                 </div>
             </div>
@@ -84,17 +81,17 @@ layout: default
             <div class="container">
                 <div class="row page-bottom">
                     <div class="col-xs-12 col-md-4">
-                        <img src="/assets/site/images/awadalla-lab-team-photo.jpg" alt="Team Photo">
+                        <img src={{page.joinTeamBox.image_txt}} alt="Team Photo">
                     </div>
                     <div class="col-xs-12 col-md-4">
-                        <h3>Join the Team</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        <a href="join.html" class="btn btn-primary icon-arrow">Join the team</a>
+                        <h3>{{page.joinTeamBox.title_txt}}</h3>
+                        <p>{{page.joinTeamBox.content_txt}}</p>
+                        <a href={{page.joinTeamBox.link_txt}} class="btn btn-primary icon-arrow">{{page.joinTeamBox.button_txt}}</a>
                     </div>
                     <div class="col-xs-12 col-md-4">
-                        <h3>Call for Collaboration</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        <a href="contact.html" class="btn btn-primary icon-arrow">Contact Us</a>
+                        <h3>{{page.collabBox.title_txt}}</h3>
+                        <p>{{page.collabBox.content_txt}}</p>
+                        <a href={{page.collabBox.link_txt}} class="btn btn-primary icon-arrow">{{page.collabBox.button_txt}}</a>
                     </div>
                 </div>
             </div>
