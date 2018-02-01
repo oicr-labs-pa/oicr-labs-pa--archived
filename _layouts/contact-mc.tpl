@@ -51,10 +51,9 @@ layout: pages-all
                                 {% endfor %}
                                 </select>
                             </div>
-                            <div class="form-group mc-field-group">
-                                <label for="mce-QUESTIONS">Questions/Comments: <span class="asterisk">*</span>
-                            </label>
-                                <input type="text" value="" name="QUESTIONS" class="form-control required" id="mce-QUESTIONS">
+                            <div class="form-group mc-field-group form-group-full">
+                                <label for="mce-QUESTIONS">Questions/Comments: <span class="asterisk">*</span></label>
+                                <textarea rows="6" value="" name="QUESTIONS" class="form-control required" id="mce-QUESTIONS" required></textarea>
                             </div>
                             <div id="mce-responses" class="clear">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
