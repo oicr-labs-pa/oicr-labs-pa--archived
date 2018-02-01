@@ -255,6 +255,20 @@ h2.title {
 .container-footer {
     padding: 0;
 }
+.container-header.container-user-nav,
+#app-user-nav.container-fluid {
+    background-color: #212322;
+    color: #fff;
+}
+.container-header.container-user-nav .row-header {
+    margin-bottom: 0;
+}
+#app-user-nav ul span {
+    color: #fff;
+}
+#app-user-nav a {
+    text-decoration: none;
+}
 .grey-section {
     border-top: 2px solid #e9e9ea;
     border-bottom: 2px solid #e9e9ea;
