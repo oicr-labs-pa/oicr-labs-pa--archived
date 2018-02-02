@@ -28,6 +28,7 @@ publications:
   title_txt: Featured Research
   button_txt: More Publications
   link_txt: "/publications/"
+  icon_txt: /assets/site/images/icon-publication.svg
 
 joinTeamBox:
   image_txt: "/assets/site/images/awadalla-lab-team-photo.jpg"

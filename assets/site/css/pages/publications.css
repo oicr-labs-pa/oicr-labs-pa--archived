@@ -57,6 +57,11 @@ nav.navbar {
 }
 
 /* NEW publications --------------------------------------------------------- */
+#oicr-ui-core-publications .sub-title-highlight,
+#oicr-ui-core-publications .type-presentation .sub-title-highlight {
+    background-image: none;
+    padding-left: 20px;
+}
 
 #oicr-ui-core-publications .filter-bar {
     width: auto;
