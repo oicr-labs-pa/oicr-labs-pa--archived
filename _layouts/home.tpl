@@ -47,29 +47,34 @@ layout: pages-all
                     <div class="row text-center">
                         <h2>Featured Research</h2>
                         <div class="row research-teaser">
-                            <div class="col-xs-12 col-md-4 text-left">
-                                <img src="/assets/site/images/icon-publication.svg" alt="Research Icon">
-                                <p>
-                                    <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                </p>
-                                <div class=horizontal-line></div>
-                            </div>
-                            <div class="col-xs-12 col-md-4 text-left">
-                                <img src="/assets/site/images/icon-publication.svg" alt="Research Icon">
-                                <p>
-                                    <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>Lorem ipsum dolor sit amet</p>
-                                <div class=horizontal-line></div>
-                            </div>
-                            <div class="col-xs-12 col-md-4 text-left">
-                                <img src="/assets/site/images/icon-publication.svg" alt="Research Icon">
-                                <p>
-                                    <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                </p>
-                            </div>
+                            {% assign pubPage = site.pages | where: "layout", "publications" | first %}
+                            {% assign pubs = site._publications | sort: "publishDate_tdt" | reverse %}
+                            {% assign pubCounter = 0 %}
+                            {% for pub in pubs %}
+                                {% assign pubCounter = pubCounter | plus: 1 %}
+                                {% assign authors = pub.authors_list | map: "author_txt" %}
+                                <div class="col-xs-12 col-md-4 text-left">
+                                    <img src="{{ page.publications.icon_txt }}" alt="Research Icon">
+                                    <p>
+                                        <a href="{% if pub.link_txt %}{{ pub.link_txt  }}{% elsif pub.attachment_txt %}{{ pub.attachment_txt }}{% endif %}">{{ pub.title_txt }}</a>
+                                        <br />
+                                        {% if pub.publicationType_txt == pubPage.types_list.journal_txt %}
+                                            {{ authors | join: ', '}}
+                                            <br />
+                                            <strong>{{ pub.journalTitle_txt }}. {{ pub.publishDate_tdt | date: "%Y" }}. </strong>{% if pub.volume_tl %}{{ pub.volume_tl }}{% if pub.issue_tl %}({{ pub.issue_tl }}). {% endif %}{% endif %}{% if pub.doi_txt %}{{ pubPage.doi_txt }} <a href="https://dx.doi.org/{{pub.doi_txt}}"
+                                            >{{ pub.doi_txt }}</a>{% endif %}
+                                        {% elsif pub.publicationType_txt == pubPage.types_list.news_txt %}
+                                            <strong>{{ pub.newspaperTitle_txt }}. {{ pub.publishDate_tdt | date: "%b %-d, %Y" }}. </strong>{{ pubPage.writtenby_txt }} {{ authors | join: ', ' }}.
+                                        {% elsif pub.publicationType_txt == pubPage.types_list.presentation_txt %}
+                                            <strong>{{ pub.eventTitle_txt }}. {{ pub.publishDate_tdt | date: "%b %-d, %Y" }}. </strong>{{ page.presenter_txt }} {{ authors | join: ', ' }}.
+                                        {% endif %}
+                                    </p>
+                                    <div class=horizontal-line></div>
+                                </div>
+                                {% if pubCounter == 3 %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
                         </div>
                         <a href={{page.publications.link_txt}} class="btn btn-primary text-uppercase icon-arrow">More publications</a>
                     </div>
