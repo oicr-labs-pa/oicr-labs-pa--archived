@@ -9,7 +9,6 @@
     border-bottom: 2px solid #e9e9ea;
 }
 .jumbotron h1 {
-    font-size: 50px;
     font-weight: normal;
 }
 .jumbotron .content {
@@ -17,17 +16,6 @@
 }
 .jumbotron .container {
     padding: 0;
-}
-@media (max-width: 991px) {
-    .jumbotron h1 {
-        font-size: 40px;
-    }
-}
-@media (max-width: 767px) {
-    .jumbotron h1 {
-        font-size: 35px;
-        font-weight: normal;
-    }
 }
 
 /* collapsible -------------------------------------------------------------- */

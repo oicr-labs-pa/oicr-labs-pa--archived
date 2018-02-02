@@ -217,6 +217,22 @@ h2.title {
     margin-bottom: 20px;
     width: 50px;
 }
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+}
 /* Site Info
 -------------------------------------------------------------- */
 #site-logo img {
@@ -773,6 +789,10 @@ nav .container {
 @media (max-width: 767px) {
     .navbar-default {
         margin-top: -10px;
+    }
+
+    .wfui-search-container-nav {
+        padding-top: 15px;
     }
 }
 

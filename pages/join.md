@@ -26,7 +26,7 @@ sections_list:
     button_txt: Email Us
     link_txt: "/contact/"
 
-  - title_txt: "Bioinformatics, Undergraduate and Volunteer               Opportunities"
+  - title_txt: "Bioinformatics, Undergraduate and Volunteer Opportunities"
     rightContent_list: 
       - "We also hire **bioinformaticians** and **undergraduates** to assist with research projects being conducted in the lab" 
       - "Additionally, we are interested in conscientious **volunteers** and if performance is satisfactory this can lead to being hired as a paid assistant during the summer months."

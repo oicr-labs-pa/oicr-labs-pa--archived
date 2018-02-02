@@ -14,7 +14,6 @@ hr {
     padding: 0;
 }
 .jumbotron h1 {
-    font-size: 50px;
     font-weight: normal;
 }
 
@@ -252,9 +251,6 @@ p a {
 }
 
 @media (max-width: 991px) {
-    .jumbotron h1 {
-        font-size: 40px;
-    }
     .publication-filters,
     .search-header {
         flex-direction: column;
@@ -300,12 +296,5 @@ p a {
 
     .form-inline .keyword-search {
         width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    .jumbotron h1 {
-        font-size: 35px;
-        font-weight: normal;
     }
 }
