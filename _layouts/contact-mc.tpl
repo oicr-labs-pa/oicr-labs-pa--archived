@@ -93,3 +93,5 @@ layout: pages-all
 
     </div>
 </div>
+
+<script type="text/javascript" src="/assets/site/js/{{page.layout}}.js"></script>
