@@ -7,7 +7,7 @@ isPublic_b: true
 publicationType_txt: journal
 title_txt: "A global reference for human genetic variation."
 pmid_tl: 26432245
-publishDate_tdt: "2015/10/01T07:23:33.000Z"
+publishDate_tdt: "2015-10-01T07:23:33.000Z"
 journalTitle_txt: "Nature"
 volume_tpl: 526
 issue_tpl: 7571

@@ -7,7 +7,7 @@ isPublic_b: true
 publicationType_txt: journal
 title_txt: "Imputation-based population genetics analysis of Plasmodium falciparum malaria parasites."
 pmid_tl: 25928499
-publishDate_tdt: "2015/04/30T07:23:33.000Z"
+publishDate_tdt: "2015-04-30T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
 volume_tpl: 11
 issue_tpl: 4
