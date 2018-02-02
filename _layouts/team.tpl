@@ -39,7 +39,7 @@ layout: pages-all
                         <!-- Person -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 wfui-card wfui-card-container person text-left">
                             <div role="body" class="wfui-card-body">
-                                <a id="member-modal-link{{ forloop.index }} href="" data-toggle="modal" data-target="#member-modal{{ forloop.index }}" class="text-uppercase">
+                                <a id="member-modal-link{{ forloop.index }} href="" data-toggle="modal" data-target="#member-modal{{ forloop.index }}">
                                     <img src="{{ person.profilePic_txt }}" alt="Profile picture of {{ person.firstName_txt }} {{ person.lastName_txt }}" class="member-img">
                                     <div class="card-content">
                                         <h5 class="member-name">{{ person.firstName_txt }} {{ person.lastName_txt }}</h5>
