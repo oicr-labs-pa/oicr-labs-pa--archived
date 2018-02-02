@@ -1,0 +1,65 @@
+---
+title: Publications | Awadalla Lab
+permalink: /publications/
+published: false
+isPublic_b: true
+
+publicationType_txt: journal
+title_txt: "Integrative annotation of variants from 1092 humans: application to cancer genomics."
+pmid_tl: 24092746
+publishDate_tdt: "2013-10-04T07:23:33.000Z"
+journalTitle_txt: "Science (New York, N.Y.)"
+volume_tpl: 342
+issue_tpl: 6154
+doi_txt: "10.1126/science.1235587"
+authors_list: 
+  - author_txt: "Khurana E"
+  - author_txt: "Fu Y"
+  - author_txt: "Colonna V"
+  - author_txt: "Mu XJ"
+  - author_txt: "Kang HM"
+  - author_txt: "Lappalainen T"
+  - author_txt: "Sboner A"
+  - author_txt: "Lochovsky L"
+  - author_txt: "Chen J"
+  - author_txt: "Harmanci A"
+  - author_txt: "Das J"
+  - author_txt: "Abyzov A"
+  - author_txt: "Balasubramanian S"
+  - author_txt: "Beal K"
+  - author_txt: "Chakravarty D"
+  - author_txt: "Challis D"
+  - author_txt: "Chen Y"
+  - author_txt: "Clarke D"
+  - author_txt: "Clarke L"
+  - author_txt: "Cunningham F"
+  - author_txt: "Evani US"
+  - author_txt: "Flicek P"
+  - author_txt: "Fragoza R"
+  - author_txt: "Garrison E"
+  - author_txt: "Gibbs R"
+  - author_txt: "Gümüş ZH"
+  - author_txt: "Herrero J"
+  - author_txt: "Kitabayashi N"
+  - author_txt: "Kong Y"
+  - author_txt: "Lage K"
+  - author_txt: "Liluashvili V"
+  - author_txt: "Lipkin SM"
+  - author_txt: "MacArthur DG"
+  - author_txt: "Marth G"
+  - author_txt: "Muzny D"
+  - author_txt: "Pers TH"
+  - author_txt: "Ritchie GRS"
+  - author_txt: "Rosenfeld JA"
+  - author_txt: "Sisu C"
+  - author_txt: "Wei X"
+  - author_txt: "Wilson M"
+  - author_txt: "Xue Y"
+  - author_txt: "Yu F"
+  - author_txt: "1000 Genomes Project Consortium."
+  - author_txt: "Dermitzakis ET"
+  - author_txt: "Yu H"
+  - author_txt: "Rubin MA"
+  - author_txt: "Tyler-Smith C"
+  - author_txt: "Gerstein M"
+---
