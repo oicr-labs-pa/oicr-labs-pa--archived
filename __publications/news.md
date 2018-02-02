@@ -2,7 +2,7 @@
 title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
-isPublic_b: true
+isPublic_b: false
 
 publicationType_txt: news
 title_txt: This is a newspaper article title

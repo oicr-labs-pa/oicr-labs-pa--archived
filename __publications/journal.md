@@ -2,7 +2,7 @@
 title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
-isPublic_b: true
+isPublic_b: false
 
 publicationType_txt: journal
 title_txt: Allele-specific expression reveals interactions between genetic variation and environment
