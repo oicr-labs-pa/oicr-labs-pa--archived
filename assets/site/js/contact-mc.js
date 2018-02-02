@@ -1,0 +1,1 @@
+document.getElementById('mce-SUBJECT').value = decodeURI(window.location.hash.split('#')[1]);

@@ -1,0 +1,98 @@
+.container-edit {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*jumbotron ----------------------------------------------------------------- */
+.jumbotron {
+    background-image: url('/assets/site/images/banner-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70%;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #e9e9ea;
+    padding: 0;
+}
+.jumbotron h1 {
+    font-weight: normal;
+}
+
+.jumbotron .content {
+    margin-bottom: 0;
+}
+.jumbotron .container {
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-weight: normal;
+    }
+}
+
+/* oicr-search-box  ----------------------------------------------------------------- */
+.oicr-search-box {
+    border: 1px solid #dce1e5;
+    padding: 15px;
+    width: 100%;
+}
+
+.oicr-search-box .input-group-btn > .btn {
+    border-color: #0f72b8;
+    color: #0f72b8;
+}
+
+.oicr-search-box .input-group-btn > .btn:hover {
+    color: #d53f46;
+    background-color: #fff;
+}
+
+/* oicr-search-content  ----------------------------------------------------------------- */
+.oicr-search-content {
+    margin: 20px 15px;
+}
+
+/* oicr-search-results  ----------------------------------------------------------------- */
+.oicr-search-results {
+    padding: 20px 0;
+}
+
+.oicr-search-results-head h2 {
+    margin-bottom: 20px;
+}
+
+/* oicr-search-group  ----------------------------------------------------------------- */
+.oicr-search-group {
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+}
+
+.oicr-search-group label {
+    width: 100px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+@media (max-width: 991px) {
+    .oicr-search-group {
+        width: 100%;
+    }
+}
+
+/* oicr-search-results-list ----------------------------------------------------------------- */
+.oicr-search-results-list {
+    padding-top: 40px;
+}
+
+.oicr-search-results-list li {
+    margin-left: 20px;
+}
+
+.oicr-search-results-list li:before {
+    font-size: 16px;
+}
+
+.oicr-search-results-list h3.oicr-search-result-title {
+    font-size: 16px;
+}

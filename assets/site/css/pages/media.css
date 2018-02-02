@@ -1,6 +1,6 @@
 /*jumbotron------------------------------------------------------------------ */
 .jumbotron {
-    background-image: url("/assets/site/images/banner-background.png");
+    background-image: url('/assets/site/images/banner-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 70%;
@@ -9,7 +9,6 @@
     border-bottom: 2px solid #e9e9ea;
 }
 .jumbotron h1 {
-    font-size: 50px;
     font-weight: normal;
 }
 .jumbotron .content {
@@ -17,13 +16,6 @@
 }
 .jumbotron .container {
     padding: 0;
-}
-
-@media(max-width: 767px) {
-    .jumbotron h1 {
-        font-size: 35px;
-        font-weight: normal;
-    }
 }
 
 /* collapsible -------------------------------------------------------------- */
@@ -69,7 +61,6 @@
 
 /* dropdown-card fixed height for isotope */
 
-
 @media (max-width: 767px) {
     .dropdown-card {
         flex-basis: 100%;
@@ -79,8 +70,7 @@
     }
 }
 
-
-@media(max-width: 575px) {
+@media (max-width: 575px) {
     .dropdown-card {
         height: 310px;
     }
@@ -99,7 +89,7 @@
 }
 
 @media (min-width: 992px) {
-    .dropdown-card {    
+    .dropdown-card {
         height: 173px;
     }
 }
@@ -109,13 +99,3 @@
         height: 260px;
     }
 }
-
-
-
-
-
-
-
-
-
-

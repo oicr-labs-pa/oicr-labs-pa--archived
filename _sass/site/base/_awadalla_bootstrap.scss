@@ -92,7 +92,8 @@ a:hover {
 }
 p a:hover,
 li a:hover {
-    color: #000;
+    color: #d53f46;
+    text-decoration: underline;
 }
 
 .paragraph-lead strong {
@@ -131,7 +132,7 @@ li a:hover {
 .btn-primary {
     border-color: #0f72b8;
     color: #000;
-    padding: 5px 20px;
+    padding: 9px 30px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -154,10 +155,6 @@ li a:hover {
     color: #d53f46;
     background-color: #fafafb;
     border-color: #0f72b8;
-}
-
-.page-bottom .btn-primary {
-    padding: 8px 30px;
 }
 @media (max-width: 767px) {
     .btn-primary {
@@ -220,11 +217,33 @@ h2.title {
     margin-bottom: 20px;
     width: 50px;
 }
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+}
 /* Site Info
 -------------------------------------------------------------- */
 #site-logo img {
     width: 100%;
     height: auto;
+}
+
+@media (min-width: 992px) {
+    #site-logo img {
+        padding-top: 5px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -255,6 +274,36 @@ h2.title {
 .container-footer {
     padding: 0;
 }
+.container-header.container-user-nav,
+#app-user-nav .container-fluid {
+    background-color: #212322;
+    color: #fff;
+}
+#user-nav-row {
+    margin-bottom: 0;
+}
+#app-user-nav ul span {
+    color: #fff;
+}
+#app-user-nav a {
+    text-decoration: none;
+}
+#app-user-nav
+    .menu-user
+    .nav-pills
+    > li
+    button.dropdown-toggle.btn.btn-default {
+    padding: 15px 15px 15px 35px;
+}
+#app-user-nav .menu-user ul span {
+    color: #212322;
+}
+#app-user-nav .dropdown-menu > li > a:hover {
+    background-color: #212322;
+}
+#app-user-nav .dropdown-menu > li > a:hover > span {
+    color: #fff;
+}
 .grey-section {
     border-top: 2px solid #e9e9ea;
     border-bottom: 2px solid #e9e9ea;
@@ -270,6 +319,13 @@ h2.title {
 .container-main {
     margin-bottom: 50px;
 }
+
+@media (min-width: 1350px) {
+    .container {
+        width: 1290px;
+    }
+}
+
 @media (min-width: 1200px) {
     .container-main,
     .container-content {
@@ -292,6 +348,7 @@ h2.title {
 .page-bottom h3 {
     margin-top: 7%;
     margin-bottom: 15px;
+    color: #000;
 }
 
 /* Main-------------------------------------------------------------- */
@@ -519,10 +576,10 @@ nav .container {
     }
 
     .nav-logo {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 37px;
-        max-width: 250px;
-        width: 100%;
+        max-width: 200px;
+        width: calc(100% - 160px);
         display: inline-block;
     }
 
@@ -726,6 +783,16 @@ nav .container {
         width: 100%;
         height: 175px;
         margin-top: -73px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default {
+        margin-top: -10px;
+    }
+
+    .wfui-search-container-nav {
+        padding-top: 15px;
     }
 }
 

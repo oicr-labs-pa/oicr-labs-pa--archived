@@ -38,7 +38,7 @@ layout: pages-all
                         <div class="row graduate-teaser">
                             <div class="col-xs-12 col-md-6 text-left">
                                 <p>
-                                {{item.rightContent_txt}}
+                                {{item.rightContent_txt | markdownify}}
                                 </p>
                                 <img src={{item.rightImage_txt}} alt="">
                             </div>
@@ -55,8 +55,8 @@ layout: pages-all
                                 <div class="border-box blue-box">
                                     <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
                                     <div class="border-box-content">
-                                        <p>{{item.buttonBox_txt}}</p>
-                                        <a href={{item.link_txt}} class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
+                                        <p>{{item.buttonBox_txt | markdownify}}</p>
+                                        <a href="{{item.link_txt}}#{{item.title_txt | uri_escape}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
                                     </div>
                                 </div>
                             </div>
@@ -68,27 +68,25 @@ layout: pages-all
             {% else %}
 
             <div class="container undergradute-section">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <h2>{{item.title_txt}}</h2>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6 text-left">
-                                {% for paragraph in item.rightContent_list %}
-                                <p>
-                                {{paragraph}}
-                                </p>
-                                {% endfor %}
-                                <div class="border-box red-box">
-                                    <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
-                                    <div class="border-box-content">
-                                        <p>{{item.buttonBox_txt}}</p>
-                                        <a href="{{item.link_txt}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
-                                    </div>
+                <div class="row text-center">
+                    <h2>{{item.title_txt}}</h2>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 text-left">
+                            {% for paragraph in item.rightContent_list %}
+                            <p>
+                            {{paragraph | markdownify}}
+                            </p>
+                            {% endfor %}
+                            <div class="border-box red-box">
+                                <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
+                                <div class="border-box-content">
+                                    <p>{{item.buttonBox_txt | markdownify}}</p>
+                                    <a href="{{item.link_txt}}#{{item.title_txt | uri_escape}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-6">
-                                <img src={{item.leftImage_txt}} alt="Awadalla Team picture">
-                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <img src={{item.leftImage_txt}} alt="Awadalla Team picture">
                         </div>
                     </div>
                 </div>

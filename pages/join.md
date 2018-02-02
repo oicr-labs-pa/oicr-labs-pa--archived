@@ -12,7 +12,7 @@ icon_txt: "/assets/site/images/icon-people.svg"
 
 sections_list:
   - title_txt: Graduate and Postdoctoral Training
-    rightContent_txt: "Students with a background in genomics, statistical genetics and evolutionary biology having an interest in medical genomics, population genetics, and genomics of infectious disease are especially welcome. Students with strengths in other areas such as computational and statistical biology will also be considered."
+    rightContent_txt: "Students with a background in **genomics, statistical genetics and evolutionary biology** having an interest in **medical genomics, population genetics, and genomics of infectious disease** are especially welcome. Students with strengths in other areas such as computational and statistical biology will also be considered."
     rightImage_txt: "/assets/site/images/awadalla-lab-team-photo-jointheteam1.jpg"
     leftContent:
       title_txt: "What to expect:"
@@ -22,17 +22,17 @@ sections_list:
         - "Academic and logistical support is provided to conduct the research throughout the duration of the program."
         - "Once research questions are formulated, the student/fellow is encouraged to develop new avenues and questions related to the problem."
         - "Research scientists in the laboratory normally are expected to publish 4-6 journal articles from their time in the lab. This enables them to be in a better position to obtain post-doctoral or academic positions."
-    buttonBox_txt: "If you are interested in applying, please send a CV and a statement of why you would like to do research in our lab."
+    buttonBox_txt: "If you are interested in applying, **please send a CV and a statement of why you would like to do research in our lab.**"
     button_txt: Email Us
     link_txt: "/contact/"
 
-  - title_txt: "Bioinformatics, Undergraduate and Volunteer               Opportunities"
+  - title_txt: "Bioinformatics, Undergraduate and Volunteer Opportunities"
     rightContent_list: 
-      - "We also hire bioinformaticians and undergraduates to assist with research projects being conducted in the lab" 
-      - "Additionally, we are interested in conscientious volunteers and if performance is satisfactory this can lead to being hired as a paid assistant during the summer months."
+      - "We also hire **bioinformaticians** and **undergraduates** to assist with research projects being conducted in the lab" 
+      - "Additionally, we are interested in conscientious **volunteers** and if performance is satisfactory this can lead to being hired as a paid assistant during the summer months."
     leftContent_txt:
     leftImage_txt: "/assets/site/images/awadalla-lab-team-photo-jointheteam2.jpg"
-    buttonBox_txt: "If you are interested in applying, please send a CV and a statement of why you would like to do research in our lab."
+    buttonBox_txt: "If you are interested in applying, **please send a CV and a statement of why you would like to do research in our lab.**"
     button_txt: "Email Us"
     link_txt: "/contact/"
 

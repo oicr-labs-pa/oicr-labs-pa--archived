@@ -84,16 +84,16 @@ layout: pages-all
         <div class="grey-section">
             <div class="container">
                 <div class="row text-center resources">
-                    <div class="col-xs-12 col-md-7 text-left">
+                    <div class="col-xs-12 col-md-7 text-left flex-box">
                         <h2>
                         <img src={{page.resources.icon_txt}} class="image-icon" alt="resource icon">{{page.resources.title_txt}}</h2>
                         {% for item in page.resources.resources_list %}
-                            <div class="col-xs-12 col-md-3 no-gutters label-side">
+                            <div class="resource-label-container no-gutters label-side">
                                 <div class="resource-label">
                                     <p>{{item.type_txt}}</p>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-9">
+                            <div class="resource-detail-container">
                                 <p>
                                     <a href={{item.link_txt}}>{{item.title_txt}}</a>
                                      - {{item.author_txt}}
@@ -111,7 +111,7 @@ layout: pages-all
 
         <!-- homepage bottom -->
         <div class="container">
-            <div class="row page-bottom">
+            <div class="row page-bottom page-callout">
                 <div class="col-xs-12 col-md-4">
                     <img src={{page.innovativeCollaborativeBox.image_txt}} alt="Team Photo">
                 </div>

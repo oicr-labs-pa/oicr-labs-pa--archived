@@ -8,7 +8,7 @@ layout: pages-all
         <div class="jumbotron wrapper">
             <div class="container container-jumbotron banner">
                 <div class="col-md-12 banner-content content text-center">
-                    <h1 class="text-uppercase">About US</h1>
+                    <h1 class="text-uppercase">{{ page.title }}</h1>
                 </div>
             </div>
         </div>
@@ -95,12 +95,14 @@ layout: pages-all
                     <div class="row text-left collab">
                         <div class="col-xs-12 col-sm-3 col-md-2 collab-image">
                             <div>
-                                <img src={{item.logo_txt}} alt="Research Icon">
+                                <a href="{{item.link_txt}}">
+                                    <img src={{item.logo_txt}} alt="Research Icon">
+                                </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10 collab-description">
                             <p>
-                            {{item.main_txt}}
+                            {{item.main_txt | markdownify}}
                             </p>
                         </div>
                     </div>

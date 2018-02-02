@@ -9,7 +9,6 @@
     border-bottom: 2px solid #e9e9ea;
 }
 .jumbotron h1 {
-    font-size: 50px;
     font-weight: normal;
 }
 .jumbotron .content {
@@ -21,7 +20,6 @@
 
 @media (max-width: 767px) {
     .jumbotron h1 {
-        font-size: 35px;
         font-weight: normal;
     }
 }
@@ -66,13 +64,7 @@
 
 @media (min-width: 992px) {
     .person {
-        height: 339.656px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .person {
-        height: 323px;
+        height: 370px;
     }
 }
 
@@ -187,8 +179,7 @@
 .dropdown-card-content {
     flex-grow: 1;
     background-color: #eef0f1;
-    min-height: 150px;
-    height: 280px;
+    height: 50px;
 }
 
 /* modal -------------------------------------------------------------------- */
