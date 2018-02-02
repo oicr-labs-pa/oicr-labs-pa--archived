@@ -60,14 +60,26 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 25px;
+    height: 330px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1199px) {
     .person {
-        height: 370px;
+        height: 365px;
     }
 }
 
+@media (max-width: 991px) {
+    .person {
+        height: 470px;
+    }
+}
+
+@media (max-width: 767px) {
+    .person {
+        height: unset;
+    }
+}
 .box-content {
     padding: 15px 10px;
 }
