@@ -236,8 +236,8 @@ h2.title {
 /* Site Info
 -------------------------------------------------------------- */
 #site-logo img {
-    width: 100%;
-    height: auto;
+    width: 290px;
+    height: 89.34px;
 }
 
 @media (min-width: 992px) {
@@ -264,6 +264,17 @@ h2.title {
     #site-logo img {
         margin-top: 0;
         margin-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    #site-logo img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 369px) {
+    #site-logo img {
+        width: 130px;
     }
 }
 /*Containers & Regions--------------------------------------------------------*/
@@ -469,6 +480,9 @@ nav .container {
 }
 
 /* Navbar collapse-------------------------------------------------------------- */
+.navbar-collapse {
+    z-index: 2;
+}
 .navbar-collapse > nav {
     padding-top: 2.5em;
     text-align: right;
@@ -567,6 +581,11 @@ nav .container {
     display: inline-block;
 }
 
+.translate-toggle,
+.nav-logo {
+    z-index: 10;
+}
+
 @media (max-width: 470px) {
     .nav-row {
         display: flex;
@@ -634,9 +653,8 @@ nav .container {
         padding-left: 10px;
     }
 
-    .nav-logo img {
-        max-width: 250px;
-        width: 100%;
+    #site-logo img {
+        margin-top: 10px;
     }
 
     .translate-toggle {
@@ -803,6 +821,12 @@ nav .container {
 
     .wfui-search-container-nav {
         display: inline-block;
+    }
+}
+
+@media (max-width: 369px) {
+    .navbar-brand {
+        padding-top: 10px;
     }
 }
 
