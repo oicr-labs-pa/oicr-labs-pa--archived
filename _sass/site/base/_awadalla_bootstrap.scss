@@ -434,15 +434,15 @@ h2.title {
 /* Content: Place content type name here */
 .bioinformatic-icon {
     background-image: url('/assets/site/images/icon-bioinformatics.svg');
-    background-size: 80%;
-    background-position: center;
+    background-size: 90% 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 60px 0 65px;
 }
 .genetics-icon {
     background-image: url('/assets/site/images/icon-genetic-research.svg');
-    background-size: 67%;
-    background-position: bottom;
+    background-size: 75% 100%;
+    background-position: center 10px;
     background-repeat: no-repeat;
     padding: 60px 0 65px;
 }
