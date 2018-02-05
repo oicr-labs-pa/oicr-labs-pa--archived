@@ -9,7 +9,7 @@ title_txt: "Comparative Analysis of Iron Homeostasis in Sub-Saharan African Chil
 pmid_tl: 26942167
 publishDate_tdt: "2016-02-23T07:23:33.000Z"
 journalTitle_txt: "Frontiers in pediatrics"
-volume_tpl: 4
+volume_tl: 4
 doi_txt: "10.3389/fped.2016.00008"
 authors_list: 
   - author_txt: "Gomez S"

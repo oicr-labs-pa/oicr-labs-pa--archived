@@ -9,8 +9,8 @@ title_txt: "Harnessing genomics to identify environmental determinants of herita
 pmid_tl: 22935230
 publishDate_tdt: "2013-01-01T07:23:33.000Z"
 journalTitle_txt: "Mutation research"
-volume_tpl: 752
-issue_tpl: 1
+volume_tl: 752
+issue_tl: 1
 doi_txt: "10.1016/j.mrrev.2012.08.002"
 authors_list: 
   - author_txt: "Yauk CL"

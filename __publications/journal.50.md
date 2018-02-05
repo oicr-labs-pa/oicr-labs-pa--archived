@@ -9,8 +9,8 @@ title_txt: "Low-complexity regions in Plasmodium falciparum: missing links in th
 pmid_tl: 20427419
 publishDate_tdt: "2010-09-01T07:23:33.000Z"
 journalTitle_txt: "Molecular biology and evolution"
-volume_tpl: 27
-issue_tpl: 9
+volume_tl: 27
+issue_tl: 9
 doi_txt: "10.1093/molbev/msq108"
 authors_list: 
   - author_txt: "Zilversmit MM"

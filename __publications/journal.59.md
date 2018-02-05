@@ -9,8 +9,8 @@ title_txt: "Diversity and linkage of genes in the self-incompatibility gene fami
 pmid_tl: 12930757
 publishDate_tdt: "2003-08-01T07:23:33.000Z"
 journalTitle_txt: "Genetics"
-volume_tpl: 164
-issue_tpl: 4
+volume_tl: 164
+issue_tl: 4
 authors_list: 
   - author_txt: "Charlesworth D"
   - author_txt: "Mable BK"

@@ -9,8 +9,8 @@ title_txt: "A family-based probabilistic method for capturing de novo mutations 
 pmid_tl: 22499693
 publishDate_tdt: "2012-01-06T07:23:33.000Z"
 journalTitle_txt: "Statistical applications in genetics and molecular biology"
-volume_tpl: 11
-issue_tpl: 2
+volume_tl: 11
+issue_tl: 2
 doi_txt: "10.2202/1544-6115.1713"
 authors_list: 
   - author_txt: "Cartwright RA"

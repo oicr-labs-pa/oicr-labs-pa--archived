@@ -9,8 +9,8 @@ title_txt: "Population-level Studies of Multiallelic Self-incompatibility Loci, 
 pmid_tl: 
 publishDate_tdt: "2000-03-01T07:23:33.000Z"
 journalTitle_txt: "Annals of Botany (Special Issue)"
-volume_tpl: 85
-issue_tpl: 
+volume_tl: 85
+issue_tl: 
 doi_txt: "10.1006/anbo.1999.1015"
 link_txt: "https://www.sciencedirect.com/science/article/pii/S0305736499910156"
 authors_list: 

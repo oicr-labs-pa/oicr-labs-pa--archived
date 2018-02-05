@@ -9,8 +9,8 @@ title_txt: "Mutations in centrosomal protein CEP152 in primary microcephaly fami
 pmid_tl: 20598275
 publishDate_tdt: "2010-07-09T07:23:33.000Z"
 journalTitle_txt: "American journal of human genetics"
-volume_tpl: 87
-issue_tpl: 1
+volume_tl: 87
+issue_tl: 1
 doi_txt: "10.1016/j.ajhg.2010.06.003"
 authors_list: 
   - author_txt: "Guernsey DL"

@@ -9,8 +9,8 @@ title_txt: "Structural polymorphism and diversifying selection on the pregnancy 
 pmid_tl: 17669514
 publishDate_tdt: "2007-10-01T07:23:33.000Z"
 journalTitle_txt: "Molecular and biochemical parasitology"
-volume_tpl: 155
-issue_tpl: 2
+volume_tl: 155
+issue_tl: 2
 oi_txt: "10.1016/j.molbiopara.2007.06.007"
 authors_list: 
   - author_txt: "Bockhorst J"

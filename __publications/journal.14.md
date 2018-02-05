@@ -9,8 +9,8 @@ title_txt: "Variation in genome-wide mutation rates within and between human fam
 pmid_tl: 21666693
 publishDate_tdt: "2011-06-12T07:23:33.000Z"
 journalTitle_txt: "Nature genetics"
-volume_tpl: 43
-issue_tpl: 7
+volume_tl: 43
+issue_tl: 7
 doi_txt: "10.1038/ng.862"
 authors_list: 
   - author_txt: "Conrad DF"

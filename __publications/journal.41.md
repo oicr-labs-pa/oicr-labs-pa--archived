@@ -9,8 +9,8 @@ title_txt: "The variant call format and VCFtools."
 pmid_tl: 21653522
 publishDate_tdt: "2011-08-01T07:23:33.000Z"
 journalTitle_txt: "Bioinformatics (Oxford, England)"
-volume_tpl: 27
-issue_tpl: 15
+volume_tl: 27
+issue_tl: 15
 doi_txt: "10.1093/bioinformatics/btr330"
 authors_list: 
   - author_txt: "Danecek P"

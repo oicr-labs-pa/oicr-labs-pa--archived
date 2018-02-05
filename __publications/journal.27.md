@@ -9,8 +9,8 @@ title_txt: "Association of age-dependent height and bone mineral density decline
 pmid_tl: 25915877
 publishDate_tdt: "2015-04-01T07:23:33.000Z"
 journalTitle_txt: "Journal of hypertension"
-volume_tpl: 33
-issue_tpl: 4
+volume_tl: 33
+issue_tl: 4
 doi_txt: "10.1097/HJH.0000000000000475"
 authors_list: 
   - author_txt: "El-Bikai R"

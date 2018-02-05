@@ -9,8 +9,8 @@ title_txt: "Whole-exome sequencing reveals a rapid change in the frequency of ra
 pmid_tl: 24086152
 publishDate_tdt: "2013-01-01T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tpl: 9
-issue_tpl: 9
+volume_tl: 9
+issue_tl: 9
 doi_txt: "10.1371/journal.pgen.1003815"
 authors_list: 
   - author_txt: "Casals F"

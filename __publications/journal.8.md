@@ -9,8 +9,8 @@ title_txt: "Cohort profile of the CARTaGENE study: Quebec's population-based bio
 pmid_tl: 23071140
 publishDate_tdt: "2013-10-01T07:23:33.000Z"
 journalTitle_txt: "International journal of epidemiology"
-volume_tpl: 42
-issue_tpl: 5
+volume_tl: 42
+issue_tl: 5
 doi_txt: "10.1093/ije/dys160"
 authors_list: 
   - author_txt: "Awadalla P"
