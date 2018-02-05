@@ -9,8 +9,8 @@ title_txt: Punctuated bursts in human male demography inferred from 1,244 worldw
 pmid_tl: 27111036
 publishDate_tdt: "2016-06-01T07:23:33.000Z"
 journalTitle_txt: Nature genetics
-volume_tpl: 48
-issue_tpl: 6
+volume_tl: 48
+issue_tl: 6
 doi_txt: 10.1038/ng.3559
 authors_list: 
   - author_txt: Poznik GD

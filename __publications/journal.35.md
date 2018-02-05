@@ -9,7 +9,7 @@ title_txt: "Selective constraint, background selection, and mutation accumulatio
 pmid_tl: 23875710
 publishDate_tdt: "2013-07-23T07:23:33.000Z"
 journalTitle_txt: "BMC genomics"
-volume_tpl: 14
+volume_tl: 14
 doi_txt: "10.1186/1471-2164-14-495"
 authors_list: 
   - author_txt: "Hodgkinson A"

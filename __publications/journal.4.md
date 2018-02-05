@@ -9,7 +9,7 @@ title_txt: "Integrating sequence and array data to create an improved 1000 Genom
 pmid_tl: 25653097
 publishDate_tdt: "2014-06-13T07:23:33.000Z"
 journalTitle_txt: "Nature communications"
-volume_tpl: 5
+volume_tl: 5
 doi_txt: "10.1038/ncomms4934"
 authors_list: 
   - author_txt: "Delaneau O"

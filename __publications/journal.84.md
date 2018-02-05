@@ -9,8 +9,8 @@ title_txt: "Global genetic diversity of UpsA var genes and the placental malaria
 pmid_tl: 
 publishDate_tdt: "2006-01-01T07:23:33.000Z"
 journalTitle_txt: "Molecular Biochemistry and Parasitology"
-volume_tpl: 
-issue_tpl: 
+volume_tl: 
+issue_tl: 
 doi_txt:
 link_txt: /
 authors_list: 

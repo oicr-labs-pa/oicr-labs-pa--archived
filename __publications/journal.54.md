@@ -9,8 +9,8 @@ title_txt: "Genomewide association studies: history, rationale, and prospects fo
 pmid_tl: 19339359
 publishDate_tdt: "2009-05-01T07:23:33.000Z"
 journalTitle_txt: "The American journal of psychiatry"
-volume_tpl: 166
-issue_tpl: 5
+volume_tl: 166
+issue_tl: 5
 doi_txt: "10.1176/appi.ajp.2008.08091354"
 authors_list: 
   - author_txt: "Psychiatric GWAS Consortium Coordinating Committee."

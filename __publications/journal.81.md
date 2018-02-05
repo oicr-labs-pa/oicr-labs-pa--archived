@@ -9,8 +9,8 @@ title_txt: "Questioning Evidence for Recombination in Human Mitochondrial DNA"
 pmid_tl: 
 publishDate_tdt: "2015-09-29T07:23:33.000Z"
 journalTitle_txt: "ARTHRITIS & RHEUMATOLOGY"
-volume_tpl: 
-issue_tpl: 
+volume_tl: 
+issue_tl: 
 doi_txt:
 link_txt: "http://acrabstracts.org/abstract/dna-methylation-and-its-relation-to-immunological-phenotypes-in-peripheral-blood-a-study-of-anti-ccp-antibody-positivity-from-a-population-based-pool/"
 authors_list: 

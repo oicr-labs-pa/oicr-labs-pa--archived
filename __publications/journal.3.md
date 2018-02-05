@@ -9,8 +9,8 @@ title_txt: "A global reference for human genetic variation."
 pmid_tl: 26432245
 publishDate_tdt: "2015-10-01T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tpl: 526
-issue_tpl: 7571
+volume_tl: 526
+issue_tl: 7571
 doi_txt: "10.1038/nature15393"
 authors_list: 
   - author_txt: "1000 Genomes Project Consortium."

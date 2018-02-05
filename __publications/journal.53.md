@@ -9,8 +9,8 @@ title_txt: "Imputation-based population genetics analysis of Plasmodium falcipar
 pmid_tl: 25928499
 publishDate_tdt: "2015-04-30T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tpl: 11
-issue_tpl: 4
+volume_tl: 11
+issue_tl: 4
 doi_txt: "10.1371/journal.pgen.1005131"
 authors_list: 
   - author_txt: "Samad H"

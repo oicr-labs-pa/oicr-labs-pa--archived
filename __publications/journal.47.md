@@ -9,8 +9,8 @@ title_txt: "Mapping copy number variation by population-scale genome sequencing.
 pmid_tl: 21293372
 publishDate_tdt: "2011-02-03T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tpl: 470
-issue_tpl: 7332
+volume_tl: 470
+issue_tl: 7332
 doi_txt: "10.1038/nature09708"
 authors_list: 
   - author_txt: "Mills RE"
