@@ -9,8 +9,8 @@ title_txt: "High recombination rates and hotspots in a Plasmodium falciparum gen
 pmid_tl: 21463505
 publishDate_tdt: "2011-01-01T07:23:33.000Z"
 journalTitle_txt: "Genome biology"
-volume_tpl: 12
-issue_tpl: 4
+volume_tl: 12
+issue_tl: 4
 doi_txt: "10.1186/gb-2011-12-4-r33"
 authors_list: 
   - author_txt: "Jiang H"

@@ -9,8 +9,8 @@ title_txt: "Prevalence, awareness, and management of CKD and cardiovascular risk
 pmid_tl: 24458079
 publishDate_tdt: "2014-04-01T07:23:33.000Z"
 journalTitle_txt: "Clinical journal of the American Society of Nephrology : CJASN"
-volume_tpl: 9
-issue_tpl: 4
+volume_tl: 9
+issue_tl: 4
 doi_txt: "10.2215/CJN.06550613"
 authors_list: 
   - author_txt: "Verhave JC"

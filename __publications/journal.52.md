@@ -9,8 +9,8 @@ title_txt: "De novo mutations in the gene encoding the synaptic scaffolding prot
 pmid_tl: 20385823
 publishDate_tdt: "2010-04-27T07:23:33.000Z"
 journalTitle_txt: "Proceedings of the National Academy of Sciences of the United States of America"
-volume_tpl: 107
-issue_tpl: 17
+volume_tl: 107
+issue_tl: 17
 doi_txt: "10.1073/pnas.0906232107"
 authors_list: 
   - author_txt: "Gauthier J"
