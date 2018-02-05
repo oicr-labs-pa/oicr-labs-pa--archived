@@ -9,8 +9,8 @@ title_txt: "Genetically encoded impairment of neuronal KCC2 cotransporter functi
 pmid_tl: 24928908
 publishDate_tdt: "2014-07-01T07:23:33.000Z"
 journalTitle_txt: "EMBO reports"
-volume_tpl: 15
-issue_tpl: 7
+volume_tl: 15
+issue_tl: 7
 doi_txt: "10.15252/embr.201438840"
 authors_list: 
   - author_txt: "Kahle KT"

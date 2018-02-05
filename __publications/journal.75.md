@@ -9,8 +9,8 @@ title_txt: "Genome-wide variation and identification of vaccine targets in the P
 pmid_tl: 17159981
 publishDate_tdt: "2007-01-01T07:23:33.000Z"
 journalTitle_txt: "Nature genetics"
-volume_tpl: 39
-issue_tpl: 1
+volume_tl: 39
+issue_tl: 1
 doi_txt: "10.1038/ng1924"
 authors_list: 
   - author_txt: "Mu J"

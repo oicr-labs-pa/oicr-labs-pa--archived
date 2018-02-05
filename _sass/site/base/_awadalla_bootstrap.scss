@@ -933,9 +933,12 @@ footer.wrapper a:visited {
 }
 footer.wrapper li,
 footer.wrapper p {
-    font-size: 13px;
-    line-height: 1.749;
-    margin-bottom: 1.1665em;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+footer.wrapper p.footer-separator {
+    padding: 0 10px;
 }
 footer.wrapper ul {
     margin-left: 2em;

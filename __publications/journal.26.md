@@ -9,8 +9,8 @@ title_txt: "An integrated map of structural variation in 2,504 human genomes."
 pmid_tl: 26432246
 publishDate_tdt: "2015-10-01T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tpl: 526
-issue_tpl: 7571
+volume_tl: 526
+issue_tl: 7571
 doi_txt: "10.1038/nature15394"
 authors_list: 
   - author_txt: "Sudmant PH"

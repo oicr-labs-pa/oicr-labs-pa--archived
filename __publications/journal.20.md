@@ -9,8 +9,8 @@ title_txt: "Depression and risk of type 2 diabetes: the potential role of metabo
 pmid_tl: 26903269
 publishDate_tdt: "2016-12-01T07:23:33.000Z"
 journalTitle_txt: "Molecular psychiatry"
-volume_tpl: 21
-issue_tpl: 12
+volume_tl: 21
+issue_tl: 12
 doi_txt: "10.1038/mp.2016.7"
 authors_list: 
   - author_txt: "Schmitz N"

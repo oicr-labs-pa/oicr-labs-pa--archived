@@ -9,8 +9,8 @@ title_txt: "A murine specific expansion of the Rhox cluster involved in embryoni
 pmid_tl: 
 publishDate_tdt: "2006-08-17T07:23:33.000Z"
 journalTitle_txt: "BMC Genomics"
-volume_tpl: 7
-issue_tpl: 212
+volume_tl: 7
+issue_tl: 212
 doi_txt: "10.1186/1471-2164-7-212"
 link_txt: "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-7-212"
 authors_list: 

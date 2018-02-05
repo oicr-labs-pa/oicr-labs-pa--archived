@@ -9,8 +9,8 @@ title_txt: "Rare allelic forms of PRDM9 associated with childhood leukemogenesis
 pmid_tl: 23222848
 publishDate_tdt: "2013-03-01T07:23:33.000Z"
 journalTitle_txt: "Genome research"
-volume_tpl: 23
-issue_tpl: 3
+volume_tl: 23
+issue_tl: 3
 doi_txt: "10.1101/gr.144188.112"
 authors_list: 
   - author_txt: "Hussin J"
