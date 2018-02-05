@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-sm-6 policy">
                     {% for item in footer.links_list %}
-                        {% if forloop.first == false %}<p>&emsp; &bull; &emsp;</p>{% endif %}
+                        {% if forloop.first == false %}<p class="footer-separator">&bull;</p>{% endif %}
                         <a href={{ item.link_txt }}>{{ item.title_txt }}</a>
                     {% endfor %}
                 </div>
