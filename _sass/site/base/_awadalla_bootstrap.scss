@@ -761,8 +761,8 @@ nav .container {
         display: none;
     }
 
-    .google-translate {
-        margin-top: 24px;
+    .translate-toggle {
+        margin-top: -40px;
         margin-left: calc(100% - 450px);
     }
 
@@ -1320,7 +1320,7 @@ footer.wrapper .row > div.menu-footer-menu {
     background-image: url('/assets/site/images/icon-search.svg');
     background-position: 10px 50%;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 20px 20px;
     min-width: 250px;
     padding-left: 40px;
 }
