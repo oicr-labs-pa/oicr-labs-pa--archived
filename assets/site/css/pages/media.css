@@ -70,21 +70,15 @@
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
     .dropdown-card {
-        height: 310px;
-    }
-}
-
-@media (min-width: 576px) {
-    .dropdown-card {
-        height: 165px;
+        height: unset;
     }
 }
 
 @media (min-width: 768px) {
     .dropdown-card {
-        height: 155px;
+        height: 160px;
     }
 }
 

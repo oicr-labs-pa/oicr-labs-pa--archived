@@ -53,7 +53,8 @@ nav.navbar {
 .graduate-teaser div:first-child p:first-child {
     margin-bottom: 40px;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 992px) {
     .graduate-teaser div:first-child {
         margin-bottom: 30px;
     }
