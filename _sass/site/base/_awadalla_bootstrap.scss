@@ -369,6 +369,7 @@ h2.title {
     background-color: #fff;
     border-color: #d53f46;
     background-image: url('/assets/site/images/icon-accordian-expand.svg');
+    background-size: 25px 25px;
     border-bottom: 1px solid #d53f46;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -389,7 +390,7 @@ h2.title {
     font-weight: 600;
     background-color: #fff;
     background-image: url('/assets/site/images/icon-accordian-contract.svg');
-    background-size: 25px;
+    background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: calc(100% - 11px) center;
     margin-top: 15px;

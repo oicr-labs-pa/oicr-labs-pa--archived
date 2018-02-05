@@ -38,11 +38,6 @@
 .team-list {
     justify-content: center;
 }
-.dropdown-card,
-.person {
-    /*   flex-basis: 16.667%;
- */
-}
 
 @media (min-width: 992px) {
     .person {
@@ -60,26 +55,26 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 25px;
-    height: 330px;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 1200px) {
+    .person {
+        height: 330px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
     .person {
         height: 365px;
     }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .person {
         height: 470px;
     }
 }
 
-@media (max-width: 767px) {
-    .person {
-        height: unset;
-    }
-}
 .box-content {
     padding: 15px 10px;
 }
