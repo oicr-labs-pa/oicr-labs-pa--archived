@@ -155,6 +155,27 @@ nav.navbar {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #oicr-ui-core-publications .filter-bar fieldset {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .lower-bar .wfui-filters > .form-group > label.control-label {
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+
+    #oicr-ui-core-publications
+        .lower-bar
+        .wfui-filters
+        > .form-group
+        > div.wfui-filters-item {
+        padding-bottom: 15px;
+    }
+}
+
 /*search--------------------------------------------------------------------- */
 #publication-search .form-group {
     width: unset;

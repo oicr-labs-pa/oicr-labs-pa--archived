@@ -1,3 +1,20 @@
+// Overrides bootstrap behaviour for ticket: WEB-17064
+
+$(document).ready(function() {
+    var $window = $(window);
+    var $menuAnchor = $('#nav-main-menu .dropdown-toggle');
+
+    function sizeDependentMenuBehaviour() {
+        if ($window.width() < 768) {
+            $menuAnchor.attr('data-toggle', 'dropdown');
+        } else {
+            $menuAnchor.attr('data-toggle', '');
+        }
+    }
+    sizeDependentMenuBehaviour();
+    $window.resize(sizeDependentMenuBehaviour);
+});
+
 jQuery(function($) {
     // Required: Forces mobile view in Win Phone
     $('#teamList').isotope({

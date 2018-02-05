@@ -54,7 +54,7 @@ layout: pages-all
                                 {% if pub.isPublic_b %}
                                     {% assign pubCounter = pubCounter | plus: 1 %}
                                     {% assign authors = pub.authors_list | map: "author_txt" %}
-                                    <div class="col-xs-12 col-md-4 text-left">
+                                    <div class="col-xs-12 col-md-4 text-left research-item">
                                         <img src="{{ page.publications.icon_txt }}" alt="Research Icon">
                                         <p>
                                             <a href="{% if pub.link_txt %}{{ pub.link_txt  }}{% elsif pub.attachment_txt %}{{ pub.attachment_txt }}{% endif %}">{{ pub.title_txt }}</a>
