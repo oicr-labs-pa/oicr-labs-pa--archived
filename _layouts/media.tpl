@@ -30,7 +30,7 @@ layout: pages-all
                                         <div id="collapse-{{eachYear.name}}" class="isotope-grid" class="row">
                                             {% assign articles = eachYear.items | sort: 'release_date' | reverse %} 
                                             {% for article in articles %}
-                                                <div class="col-xs-6 col-md-4 col-lg-2 dropdown-card ">
+                                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 dropdown-card ">
                                                     <div class="dropdown-card-content box-content">
                                                         <p>{{ article.release_date | date: "%B %-d, %Y"}}</p>
                                                         <h3>

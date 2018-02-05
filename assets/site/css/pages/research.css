@@ -104,6 +104,11 @@ nav.navbar {
         padding-right: 15px;
     }
 }
+@media (min-width: 992px) {
+    .ongoing-research-list > div.col-md-4 {
+        width: 33.3%;
+    }
+}
 /* resources section -------------------------------------------------------- */
 .flex-box {
     display: flex;
