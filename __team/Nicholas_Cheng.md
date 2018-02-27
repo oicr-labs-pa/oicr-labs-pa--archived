@@ -6,7 +6,7 @@ isPublic_b: true
 
 firstName_txt: Nicholas
 lastName_txt: Cheng
-profilePic_txt: /assets/site/images/personnel/Nicholas.jpg
+profilePic_txt: /assets/site/images/personnel/Nicholas.png
 position_txt: PhD. Student
 ---
 
