@@ -1,0 +1,25 @@
+---
+title: Publications | Awadalla Lab
+permalink: /publications/
+published: false
+isPublic_b: true
+
+publicationType_txt: journal
+title_txt: "The Mobile Element Locator Tool (MELT): population-scale mobile element discovery and biology."
+pmid_tl: 28855259
+publishDate_tdt: "2017-11-01T07:23:33.000Z"
+journalTitle_txt: "Genome research"
+volume_tl: 27
+issue_tl: 11
+doi_txt: "10.1101/gr.218032.116."
+authors_list: 
+  - author_txt: "Eugene J. Gardner"
+  - author_txt: "Vincent K. Lam"
+  - author_txt: "Daniel N. Harris"
+  - author_txt: "Nelson T. Chuang"
+  - author_txt: "Emma C. Scott"
+  - author_txt: "W. Stephen Pittard"
+  - author_txt: "Ryan E. Mills"
+  - author_txt: "The 1000 Genomes Project Consortium"
+  - author_txt: "Scott E. Devine"
+---
