@@ -7,7 +7,7 @@ isPublic_b: true
 publicationType_txt: journal
 title_txt: "Gene-by-environment interactions in urban populations modulate risk phenotypes."
 pmid_tl: 
-publishDate_tdt: "T07:23:33.000Z"
+publishDate_tdt: "2018-03-06T07:23:33.000Z"
 journalTitle_txt: "Nature Communications in press"
 volume_tl:
 issue_tl:
