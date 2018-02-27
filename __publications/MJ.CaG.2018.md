@@ -1,7 +1,7 @@
 ---
 title: Publications | Awadalla Lab
 permalink: /publications/
-published: false
+published: true
 isPublic_b: true
 
 publicationType_txt: journal
