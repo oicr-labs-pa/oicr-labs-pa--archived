@@ -236,8 +236,8 @@ h2.title {
 /* Site Info
 -------------------------------------------------------------- */
 #site-logo img {
-    width: 100%;
-    height: auto;
+    width: 290px;
+    height: 89.34px;
 }
 
 @media (min-width: 992px) {
@@ -264,6 +264,17 @@ h2.title {
     #site-logo img {
         margin-top: 0;
         margin-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    #site-logo img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 369px) {
+    #site-logo img {
+        width: 130px;
     }
 }
 /*Containers & Regions--------------------------------------------------------*/
@@ -358,6 +369,7 @@ h2.title {
     background-color: #fff;
     border-color: #d53f46;
     background-image: url('/assets/site/images/icon-accordian-expand.svg');
+    background-size: 25px 25px;
     border-bottom: 1px solid #d53f46;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -378,7 +390,7 @@ h2.title {
     font-weight: 600;
     background-color: #fff;
     background-image: url('/assets/site/images/icon-accordian-contract.svg');
-    background-size: 25px;
+    background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: calc(100% - 11px) center;
     margin-top: 15px;
@@ -423,15 +435,15 @@ h2.title {
 /* Content: Place content type name here */
 .bioinformatic-icon {
     background-image: url('/assets/site/images/icon-bioinformatics.svg');
-    background-size: 80%;
-    background-position: center;
+    background-size: 90% 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 60px 0 65px;
 }
 .genetics-icon {
     background-image: url('/assets/site/images/icon-genetic-research.svg');
-    background-size: 67%;
-    background-position: bottom;
+    background-size: 75% 100%;
+    background-position: center 10px;
     background-repeat: no-repeat;
     padding: 60px 0 65px;
 }
@@ -469,6 +481,9 @@ nav .container {
 }
 
 /* Navbar collapse-------------------------------------------------------------- */
+.navbar-collapse {
+    z-index: 2;
+}
 .navbar-collapse > nav {
     padding-top: 2.5em;
     text-align: right;
@@ -567,6 +582,11 @@ nav .container {
     display: inline-block;
 }
 
+.translate-toggle,
+.nav-logo {
+    z-index: 10;
+}
+
 @media (max-width: 470px) {
     .nav-row {
         display: flex;
@@ -634,9 +654,8 @@ nav .container {
         padding-left: 10px;
     }
 
-    .nav-logo img {
-        max-width: 250px;
-        width: 100%;
+    #site-logo img {
+        margin-top: 10px;
     }
 
     .translate-toggle {
@@ -743,8 +762,8 @@ nav .container {
         display: none;
     }
 
-    .google-translate {
-        margin-top: 24px;
+    .translate-toggle {
+        margin-top: -40px;
         margin-left: calc(100% - 450px);
     }
 
@@ -803,6 +822,12 @@ nav .container {
 
     .wfui-search-container-nav {
         display: inline-block;
+    }
+}
+
+@media (max-width: 369px) {
+    .navbar-brand {
+        padding-top: 10px;
     }
 }
 
@@ -909,9 +934,12 @@ footer.wrapper a:visited {
 }
 footer.wrapper li,
 footer.wrapper p {
-    font-size: 13px;
-    line-height: 1.749;
-    margin-bottom: 1.1665em;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+footer.wrapper p.footer-separator {
+    padding: 0 10px;
 }
 footer.wrapper ul {
     margin-left: 2em;
@@ -1293,7 +1321,7 @@ footer.wrapper .row > div.menu-footer-menu {
     background-image: url('/assets/site/images/icon-search.svg');
     background-position: 10px 50%;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 20px 20px;
     min-width: 250px;
     padding-left: 40px;
 }

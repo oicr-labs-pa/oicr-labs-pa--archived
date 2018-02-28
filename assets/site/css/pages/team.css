@@ -38,11 +38,6 @@
 .team-list {
     justify-content: center;
 }
-.dropdown-card,
-.person {
-    /*   flex-basis: 16.667%;
- */
-}
 
 @media (min-width: 992px) {
     .person {
@@ -62,9 +57,21 @@
     padding-bottom: 25px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .person {
-        height: 370px;
+        height: 330px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .person {
+        height: 365px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .person {
+        height: 470px;
     }
 }
 

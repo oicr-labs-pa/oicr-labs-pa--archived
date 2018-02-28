@@ -17,7 +17,6 @@
     padding: 0;
 }
 
-
 @media (max-width: 767px) {
     .jumbotron h1 {
         font-weight: normal;
@@ -114,9 +113,14 @@
     border: 1px solid #e0e1e2;
     padding: 10px 10px;
     min-height: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.collab-image > div > a {
+    width: 100%;
 }
 
 @media (max-width: 767px) {
