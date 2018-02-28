@@ -43,7 +43,7 @@ researchProjects:
       subtitle_txt: "Genome sequencing of new and old-world isolates of Plasmodium falciparum and related malaria species."
 
 resources:
-    title_txt: Resources
+  title_txt: Resources
   icon_txt: "/assets/site/images/icon-resources.svg"
   resources_list:
     - type_txt: "Presentation"
