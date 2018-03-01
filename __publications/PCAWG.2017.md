@@ -48,18 +48,18 @@ authors_list:
   - author_txt: "Akinyemi Ojesinag"
   - author_txt: "Francis Ouellette"
   - author_txt: "Chandra Pedamallu"
-  - author_txt: “ Marc Perry”
-  - author_txt: “ Gunnar Rätsch”
-  - author_txt: “ Roland Schwarz”
-  - author_txt: “ Yuichi Shiraishi”
-  - author_txt: “ Cameron Soulette”
-  - author_txt: “ Oliver Stegle”
-  - author_txt: “ Patrick Tan”
-  - author_txt: “ Alfonso Valencia”
-  - author_txt: “ Linda Xiang”
-  - author_txt: “ Christina Yung”
-  - author_txt: “ Junjun Zhang”
-  - author_txt: “ Fan Zhang”
-  - author_txt: “ Zemin Zhang”
-  - author_txt: “ Jingchun Zhu"
+  - author_txt: Marc Perry
+  - author_txt: Gunnar Rätsch
+  - author_txt: Roland Schwarz
+  - author_txt: Yuichi Shiraishi
+  - author_txt: Cameron Soulette
+  - author_txt: Oliver Stegle
+  - author_txt: Patrick Tan
+  - author_txt: Alfonso Valencia
+  - author_txt: Linda Xiang
+  - author_txt: Christina Yung
+  - author_txt: Junjun Zhang
+  - author_txt: Fan Zhang
+  - author_txt: Zemin Zhang
+  - author_txt: Jingchun Zhu
 ---
