@@ -9,8 +9,8 @@ title_txt: "Recombination Hotspots and Population Structure in Plasmodium falcip
 pmid_tl: 
 publishDate_tdt: "2005-09-13T07:23:33.000Z"
 journalTitle_txt: "PLOS Biology"
-volume_tpl: 3
-issue_tpl: 
+volume_tl: 3
+issue_tl: 
 doi_txt: "10.1371/journal.pbio.0030335"
 link_txt: "http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030335"
 authors_list: 

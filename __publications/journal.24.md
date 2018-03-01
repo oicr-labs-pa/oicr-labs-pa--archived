@@ -9,7 +9,7 @@ title_txt: "Replication study of MATR3 in familial and sporadic amyotrophic late
 pmid_tl: 26493020
 publishDate_tdt: "2016-01-01T07:23:33.000Z"
 journalTitle_txt: "Neurobiology of aging"
-volume_tpl: 37
+volume_tl: 37
 doi_txt: "10.1016/j.neurobiolaging.2015.09.013"
 authors_list: 
   - author_txt: "Leblond CS"

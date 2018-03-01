@@ -9,8 +9,8 @@ title_txt: "Local differentiation in Plasmodium falciparum drug resistance genes
 pmid_tl: 12793642
 publishDate_tdt: "2003-05-01T07:23:33.000Z"
 journalTitle_txt: "Parasitology"
-volume_tpl: 126
-issue_tpl: 5
+volume_tl: 126
+issue_tl: 5
 authors_list: 
   - author_txt: "Abdel-Muhsin AA"
   - author_txt: "Mackinnon MJ"

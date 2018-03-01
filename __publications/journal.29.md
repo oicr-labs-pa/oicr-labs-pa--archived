@@ -9,7 +9,7 @@ title_txt: "Genomic architecture of sickle cell disease in West African children
 pmid_tl: 24592274
 publishDate_tdt: "2014-02-14T07:23:33.000Z"
 journalTitle_txt: "Frontiers in genetics"
-volume_tpl: 5
+volume_tl: 5
 doi_txt: "10.3389/fgene.2014.00026"
 authors_list: 
   - author_txt: "Quinlan J"

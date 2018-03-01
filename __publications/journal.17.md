@@ -9,8 +9,8 @@ title_txt: "Direct measure of the de novo mutation rate in autism and schizophre
 pmid_tl: 20797689
 publishDate_tdt: "2010-09-10T07:23:33.000Z"
 journalTitle_txt: "American journal of human genetics"
-volume_tpl: 87
-issue_tpl: 3
+volume_tl: 87
+issue_tl: 3
 doi_txt: "10.1016/j.ajhg.2010.07.019"
 authors_list: 
   - author_txt: "Awadalla P"

@@ -9,8 +9,8 @@ title_txt: "Diversity of human copy number variation and multicopy genes."
 pmid_tl: 21030649
 publishDate_tdt: "2010-10-29T07:23:33.000Z"
 journalTitle_txt: "Science (New York, N.Y.)"
-volume_tpl: 330
-issue_tpl: 6004
+volume_tl: 330
+issue_tl: 6004
 doi_txt: "10.1126/science.1197005"
 authors_list: 
   - author_txt: "Sudmant PH"

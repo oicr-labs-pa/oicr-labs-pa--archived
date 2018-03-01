@@ -9,8 +9,8 @@ title_txt: "High-coverage RNA-sequencing Reveals Substantial Variation Associate
 pmid_tl: 
 publishDate_tdt: "2015-08-03T07:23:33.000Z"
 journalTitle_txt: "Banff International Research Station for Mathematical Innovation and Discovery"
-volume_tpl: 
-issue_tpl: 
+volume_tl: 
+issue_tl: 
 doi_txt:
 link_txt: "https://open.library.ubc.ca/cIRcle/collections/birs/items/1.0229559"
 authors_list: 

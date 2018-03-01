@@ -9,8 +9,8 @@ title_txt: "Integrative annotation of variants from 1092 humans: application to 
 pmid_tl: 24092746
 publishDate_tdt: "2013-10-04T07:23:33.000Z"
 journalTitle_txt: "Science (New York, N.Y.)"
-volume_tpl: 342
-issue_tpl: 6154
+volume_tl: 342
+issue_tl: 6154
 doi_txt: "10.1126/science.1235587"
 authors_list: 
   - author_txt: "Khurana E"

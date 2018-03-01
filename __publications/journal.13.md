@@ -7,8 +7,8 @@ isPublic_b: true
 publicationType_txt: journal
 publishDate_tdt: "2011-09-01T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tpl: 7
-issue_tpl: 9
+volume_tl: 7
+issue_tl: 9
 doi_txt: "10.1371/journal.pgen.1002251"
 authors_list: 
   - author_txt: "Hussin J"
