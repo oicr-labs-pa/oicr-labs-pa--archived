@@ -5,19 +5,20 @@ published: false
 isPublic_b: true
 
 publicationType_txt: journal
-title_txt: "Genomic and Environmental Contributions to Chronic Diseases in Urban Populations"
+title_txt: "Gene-by-environment interactions in urban populations modulate risk phenotypes."
 pmid_tl: 
-publishDate_tdt: "2017-01-11T07:23:33.000Z"
-journalTitle_txt: bioRxiv
+publishDate_tdt: "2018-03-06T07:23:33.000Z"
+journalTitle_txt: "Nature Communications in press"
 volume_tl:
 issue_tl:
 link_txt: "https://www.biorxiv.org/content/early/2017/01/11/099770"
-doi_txt: "10.1101/099770"
+doi_txt: "10.1038/s41467-018-03202-2"
 authors_list:
-  - author_txt: Marie-Julie Fave
-  - author_txt: Fabien Lamaze
+  - author_txt: Marie-Julie Favé
+  - author_txt: Fabien C. Lamaze
+  - author_txt: David Soave
   - author_txt: Alan Hodgkinson
-  - author_txt: Heloise Gauvin
+  - author_txt: Héloise Gauvin
   - author_txt: Vanessa Bruat
   - author_txt: Jean-Christophe Grenier
   - author_txt: Elias Gbeha

@@ -11,7 +11,7 @@ isPublic_b: true
 
 banner:
   labName_txt: Awadalla Research Lab
-  title_txt: Pioneering Genomics for Precision Health
+  title_txt: Pioneering Genomics for Precision Health 
   subtitle_txt: "We use population genomics to understand individual health trajectories. We are a team of ***curious*** and ***collaborative*** researchers, bridging the fields of:"
   rightBox_txt: bioinformatics
   leftBox_txt:  genetic research

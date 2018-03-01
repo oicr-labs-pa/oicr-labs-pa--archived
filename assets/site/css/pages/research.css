@@ -123,19 +123,18 @@ nav.navbar {
     margin-right: 10px;
 }
 
-.resources .resource-label-container {
-    width: 108px;
+.resources .resource-logo-container {
     padding-top: 2px;
 }
 
-.resources .resource-detail-container {
-    width: calc(100% - 108px);
-    padding-left: 15px;
+.resources .resource-logo-container:nth-child(3) {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-.resources .resource-detail-container a:hover {
-    color: #d53f46;
-    text-decoration: underline;
+.resources .resource-logo-container:nth-child(4) {
+    padding-top: 15px;
+    padding-bottom:10px;
 }
 
 .resources .resource-label {
@@ -168,14 +167,9 @@ nav.navbar {
 }
 
 @media (max-width: 767px) {
-    .resources .resource-label-container {
-        width: 100%;
-        padding-top: 0;
-    }
-
-    .resources .resource-detail-container {
-        width: 100%;
-        padding-left: 0;
+    .resources .resource-logo-container {
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
