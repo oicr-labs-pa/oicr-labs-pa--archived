@@ -3,6 +3,7 @@ title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
 isPublic_b: true
+highlight: true
 
 publicationType_txt: journal
 title_txt: "Motif Disruption Domains Lead To Cancer Gene Expression Rewiring."
