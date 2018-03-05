@@ -23,9 +23,6 @@ labStats:
   projectsIcon_txt: "/assets/site/images/icon-projects.svg"
   projectsNumber_txt: "10+"
   projectsType_txt: "Projects"
-  countriesIcon_txt: "/assets/site/images/icon-countries.svg"
-  countriesNumber_txt: "5+"
-  countriesType_txt: "Countries"
 
 dataPlatforms:
   title_txt: "Data Platorms and Collaborations"
