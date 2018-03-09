@@ -56,7 +56,7 @@ layout: pages-all
                                     <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
                                     <div class="border-box-content">
                                         <p>{{item.buttonBox_txt | markdownify}}</p>
-                                        <a href="{{item.link_txt}}#{{item.title_txt | uri_escape}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
+                                        <a href="{{item.link_txt}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ layout: pages-all
                                 <img src="/assets/site/images/icon-contactus.svg" class="image-icon contact-icon" alt="">
                                 <div class="border-box-content">
                                     <p>{{item.buttonBox_txt | markdownify}}</p>
-                                    <a href="{{item.link_txt}}#{{item.title_txt | uri_escape}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
+                                    <a href="{{item.link_txt}}" class="btn btn-primary icon-arrow">{{item.button_txt}}</a>
                                 </div>
                             </div>
                         </div>
