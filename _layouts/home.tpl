@@ -48,7 +48,7 @@ layout: pages-all
                         <h2>Featured Research</h2>
                         <div class="row research-teaser">
                             {% assign pubPage = site.pages | where: "layout", "publications" | first %}
-                            {% assign pubs = site._publications | sort: "publishDate_tdt" | reverse %}
+                            {% assign pubs = site._publications | where_exp: "item", "item.highlight == true" | sort: "publishDate_tdt" | reverse %}
                             {% assign pubCounter = 0 %}
                             {% for pub in pubs %}
                                 {% if pub.isPublic_b %}
