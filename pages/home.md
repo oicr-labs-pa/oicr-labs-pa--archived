@@ -38,7 +38,7 @@ joinTeamBox:
   link_txt: "/join/"
 
 collabBox:
-  title_txt: Call for Collaboration
+  title_txt: Contact Us
   content_txt: Are you interested in the research we do and think you can add value to our projects?
   button_txt: Contact Us
   link_txt: "/contact/"

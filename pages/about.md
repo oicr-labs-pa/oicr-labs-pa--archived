@@ -11,7 +11,7 @@ about:
     - "A lively team with a specialized skill set."
     - "We are the Medical and Population Genomics Laboratory at the Ontario Institute for Cancer Research and the University of Toronto. Working with genomic data and through the development of computational tools and models, the laboratory addresses questions relevant to how genetics and the environment influences the frequency and severity of diseases in human populations."
     - "Our lab environment is very academic however the energy is social, lively, passionate, innovative, and extremely collaborative.  Our team represents a variety of bioinformatic and genetic disciplines, but what makes our lab unique is that we have the freedom to apply our skills to a wide range of projects and interests in the space of genomics and population health."
-    - "While our teams are based in Montreal and Toronto, we recruit trainees and researchers from around the world and currently have collaborators in over xx countries." 
+    - "While our teams are based in Toronto and Montreal, we recruit trainees and researchers from around the world and currently have many international collaborators." 
   image_txt: "/assets/site/images/awadalla-lab-team-photo-aboutus.jpg"
   button_txt: "Meet the Team"
   link_txt: "/team/"

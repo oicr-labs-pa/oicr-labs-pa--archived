@@ -87,17 +87,12 @@ layout: pages-all
                     <div class="col-xs-12 col-md-7 text-left flex-box">
                         <h2>
                         <img src={{page.resources.icon_txt}} class="image-icon" alt="resource icon">{{page.resources.title_txt}}</h2>
+                        
                         {% for item in page.resources.resources_list %}
-                            <div class="resource-label-container no-gutters label-side">
-                                <div class="resource-label">
-                                    <p>{{item.type_txt}}</p>
-                                </div>
-                            </div>
-                            <div class="resource-detail-container">
-                                <p>
-                                    <a href={{item.link_txt}}>{{item.title_txt}}</a>
-                                     - {{item.author_txt}}
-                                </p>
+                            <div class="col-sm-4 resource-logo-container">
+                                    <a href={{item.link_txt}}>
+                                    <img src={{item.image_txt}}>
+                                    </a>
                             </div>
                         {% endfor %}
                     </div>

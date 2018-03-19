@@ -3,6 +3,7 @@ title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
 isPublic_b: true
+highlight: true
 
 publicationType_txt: journal
 title_txt: "Recombination affects accumulation of damaging and disease-associated mutations in human populations."

@@ -46,10 +46,12 @@ resources:
   title_txt: Resources
   icon_txt: "/assets/site/images/icon-resources.svg"
   resources_list:
-    - type_txt: "Presentation"
-      title_txt: "A common pan-cancer gene set predicts the tumor or normal state of tissue biopsies"
-      link_txt: ""
-      author_txt: "Fabien Lamaze, M Agbessi, V Bruat, J-C Grenier, P Awadalla"
+    - image_txt: "/assets/site/images/logo-cdic.svg"
+      link_txt: "http://genome-cdic.ca/"
+    - image_txt: "/assets/site/images/logo-ontario-health-study.svg"
+      link_txt: "https://ontariohealthstudy.ca/"
+    - image_txt: "/assets/site/images/logo-CPTP.png"
+      link_txt: "http://partnershipfortomorrow.ca/"
   image_txt: "/assets/site/images/awadalla-lab-team-photo-montreal-resources.jpg"
 
 innovativeCollaborativeBox:
@@ -60,7 +62,7 @@ innovativeCollaborativeBox:
   link_txt: "/about/"
 
 collabBox:
-  title_txt: "Contact us"
+  title_txt: "Contact Us"
   content_txt: Are you interested in the research we do and think you can add value to our projects?"
   button_txt: "Contact Us"
   link_txt: "/contact/"

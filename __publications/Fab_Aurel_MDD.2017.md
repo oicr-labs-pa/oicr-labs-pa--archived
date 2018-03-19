@@ -14,10 +14,10 @@ issue_tl:
 link_txt: "https://www.biorxiv.org/content/early/2017/04/11/126359"
 doi_txt: "10.1101/126359"
 authors_list:
-- author_txt: “ Fabien C Lamaze”
-- author_txt: “ Aurelien Chateigner”
-- author_txt: “ Hilary A Edgington”
-- author_txt: “ Marie-Julie Fave”
-- author_txt: “ Armande Ang Houle”
-- author_txt: “ Philip Awadalla"
+- author_txt: Fabien C Lamaze
+- author_txt: Aurelien Chateigner
+- author_txt: Hilary A Edgington
+- author_txt: Marie-Julie Fave
+- author_txt: Armande Ang Houle
+- author_txt: Philip Awadalla
 ---
