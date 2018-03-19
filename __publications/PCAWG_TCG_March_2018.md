@@ -11,6 +11,7 @@ publishDate_tdt: "2018-03-12T07:23:33.000Z"
 journalTitle_txt: "BioRxiv"
 volume_tl: 
 issue_tl: 
+link_txt: "https://www.biorxiv.org/content/early/2018/03/12/183889"
 doi_txt: "10.1101/183889"
 authors_list: 
 - author_txt: PCAWG Transcriptome Core Group
