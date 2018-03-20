@@ -46,5 +46,25 @@ authors_list:
 - author_txt:  Chandra Sekhar Pedamallu
 - author_txt:  Reiner Siebert
 - author_txt:  Stefan G Stark
+- author_txt:  Hong Su
+- author_txt:  Patrick Tan
+- author_txt:  Sebastian M Waszak
+- author_txt:  Christina Yung
+- author_txt:  Shida Zhu
+- author_txt:  PCAWG Transcriptome Working Group
+- author_txt:  Philip Awadalla
+- author_txt:  Chad J Creighton
+- author_txt:  Matthew Meyerson
+- author_txt:  B.F. Francis Ouellette
+- author_txt:  Kui Wu
+- author_txt:  Huanming Yang
+- author_txt:  ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Network
+- author_txt:  Alvis Brazma
+- author_txt:  Angela N Brooks
+- author_txt:  Jonathan Göke
+- author_txt:  Gunnar Rätsch
+- author_txt:  Roland F Schwarz
+- author_txt:  Oliver Stegle
+- author_txt:  Zemin Zhang
 
 ---
