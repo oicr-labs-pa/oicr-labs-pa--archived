@@ -273,6 +273,18 @@ div.modal-header > button.close {
 
 /* responsive --------------------------------------------------------------- */
 
+@media (max-width: 1349px) {
+    .dropdown-card-content {
+        height: 275px;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-card-content {
+        height: 225px;
+    }
+}
+
 @media (max-width: 767px) {
     .dropdown-card {
         flex-basis: 50%;
@@ -282,6 +294,9 @@ div.modal-header > button.close {
     }
     .bottom-text {
         flex-basis: 92%;
+    }
+    .dropdown-card-content {
+        height: unset;
     }
 }
 
