@@ -5,7 +5,7 @@ published: false
 isPublic_b: true
 
 publicationType_txt: journal
-title_txt: "Questioning Evidence for Recombination in Human Mitochondrial DNA"
+title_txt: "DNA Methylation and Its Relation to Immunological Phenotypes in Peripheral Blood: A Study of Anti-CCP Antibody Positivity from a Population-Based Pool"
 pmid_tl: 
 publishDate_tdt: "2015-09-29T07:23:33.000Z"
 journalTitle_txt: "ARTHRITIS & RHEUMATOLOGY"
