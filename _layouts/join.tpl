@@ -38,15 +38,17 @@ layout: pages-all
                         <div class="row graduate-teaser">
                             <div class="col-xs-12 col-md-6 text-left">
                                 <p>
-                                {{item.rightContent_txt | markdownify}}
+                                {{item.leftContent_txt | markdownify}}
                                 </p>
-                                <img src={{item.rightImage_txt}} alt="">
+                                {% if item.leftImage_txt %}
+                                    <img src={{item.leftImage_txt}} alt="">
+                                {% endif %}
                             </div>
                             <div class="col-xs-12 col-md-6 text-left">
-                                <h3>{{item.leftContent.title_txt}}</h3>
-                                {{item.leftContent.main_txt}}
+                                <h3>{{item.rightContent.title_txt}}</h3>
+                                <p>{{item.rightContent.main_txt}}</p>
                                 <ul>
-                                {% for point in item.leftContent.content_list %}
+                                {% for point in item.rightContent.content_list %}
                                     <li>
                                         <span>{{point}}</span>
                                     </li>
@@ -72,7 +74,7 @@ layout: pages-all
                     <h2>{{item.title_txt}}</h2>
                     <div class="row">
                         <div class="col-xs-12 col-md-6 text-left">
-                            {% for paragraph in item.rightContent_list %}
+                            {% for paragraph in item.leftContent_list %}
                             <p>
                             {{paragraph | markdownify}}
                             </p>
@@ -86,7 +88,7 @@ layout: pages-all
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <img src={{item.leftImage_txt}} alt="Awadalla Team picture">
+                            <img src={{item.rightImage_txt}} alt="Awadalla Team picture">
                         </div>
                     </div>
                 </div>
