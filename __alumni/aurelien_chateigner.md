@@ -6,8 +6,8 @@ isPublic_b: true
 
 firstName_txt: Aurélien
 lastName_txt: Chateigner
-position_txt: 
-affiliation_txt: Equipe Prédiction et Gestion de la Diversité des Génomes et des Populations
+position_txt: Postdoc
+affiliation_txt: BioForA
 location_txt: INRA, France
 alumniType_txt: Postdocs
 ---
