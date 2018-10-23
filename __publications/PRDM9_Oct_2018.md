@@ -3,7 +3,7 @@ title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
 isPublic_b: true
-highlight: true
+highlight: false
 
 publicationType_txt: journal
 title_txt: "Aberrant PRDM9 expression impacts the pan-cancer genomic landscape."
