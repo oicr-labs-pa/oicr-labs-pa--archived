@@ -3,7 +3,6 @@ title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
 isPublic_b: true
-highlight: true
 
 publicationType_txt: journal
 title_txt: "Urinary Uromodulin In A Pathway Between Decreased Urinary Uric Acid Excretion And Albuminuria."
