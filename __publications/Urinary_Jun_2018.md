@@ -7,7 +7,7 @@ isPublic_b: true
 publicationType_txt: journal
 title_txt: "Urinary Uromodulin In A Pathway Between Decreased Urinary Uric Acid Excretion And Albuminuria."
 pmid_tl:
-publishDate_tdt: "2018-06-1T07:23:33.000Z"
+publishDate_tdt: "2018-06-01T07:23:33.000Z"
 journalTitle_txt: "Journal of Hypertension"
 volume_tl: 36
 issue_tl: 0263-6352
