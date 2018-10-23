@@ -6,7 +6,7 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Prediction of acute myeloid leukaemia risk in healthy individuals."
-pmid_tl: 29988082
+pmid_tl:
 publishDate_tdt: "2018-07-09T07:23:33.000Z"
 journalTitle_txt: "Nature"
 volume_tl: 559
