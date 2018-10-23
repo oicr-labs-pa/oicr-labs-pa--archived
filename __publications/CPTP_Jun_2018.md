@@ -3,7 +3,6 @@ title: Publications | Awadalla Lab
 permalink: /publications/
 published: false
 isPublic_b: true
-highlight: true
 
 publicationType_txt: journal
 title_txt: "The Canadian Partnership for Tomorrow Project: a pan-Canadian platform for research on chronic disease prevention."
