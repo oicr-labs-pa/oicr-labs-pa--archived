@@ -4,7 +4,7 @@ title: Footer
 
 logo_list:
   - title_txt: Ontario Institute for Cancer Research
-    logo_txt: /assets/site/images/logo-ontario-institute-for-cancer-research-white.svg
+    logo_txt: /assets/site/images/logo-ontario-institute-for-cancer-research-white.png
     link_txt: http://oicr.on.ca/
     id_txt: oicr
   - title_txt: Genome Canada
