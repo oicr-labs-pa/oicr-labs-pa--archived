@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Identification and characterization of a polymorphic receptor kinase gene linked to the self-incompatibility locus of Arabidopsis lyrata."
-pmid_tl: 11333247
+pmid_ti: 11333247
 publishDate_tdt: "2001-05-01T07:23:33.000Z"
 journalTitle_txt: "Genetics"
-volume_tl: 158
-issue_tl: 1
+volume_ti: 158
+issue_ti: 1
 authors_list: 
   - author_txt: "Schierup MH"
   - author_txt: "Mable BK"

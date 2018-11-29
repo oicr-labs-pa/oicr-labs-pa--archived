@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Genome-wide variation and identification of vaccine targets in the Plasmodium falciparum genome."
-pmid_tl: 17159981
+pmid_ti: 17159981
 publishDate_tdt: "2007-01-01T07:23:33.000Z"
 journalTitle_txt: "Nature genetics"
-volume_tl: 39
-issue_tl: 1
+volume_ti: 39
+issue_ti: 1
 doi_txt: "10.1038/ng1924"
 authors_list: 
   - author_txt: "Mu J"

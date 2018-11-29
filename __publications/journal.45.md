@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "High recombination rates and hotspots in a Plasmodium falciparum genetic cross."
-pmid_tl: 21463505
+pmid_ti: 21463505
 publishDate_tdt: "2011-01-01T07:23:33.000Z"
 journalTitle_txt: "Genome biology"
-volume_tl: 12
-issue_tl: 4
+volume_ti: 12
+issue_ti: 4
 doi_txt: "10.1186/gb-2011-12-4-r33"
 authors_list: 
   - author_txt: "Jiang H"

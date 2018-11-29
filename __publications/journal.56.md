@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Darwinian selection on a selfing locus."
-pmid_tl: 15604405
+pmid_ti: 15604405
 publishDate_tdt: "2004-12-17T07:23:33.000Z"
 journalTitle_txt: "Science (New York, N.Y.)"
-volume_tl: 306
-issue_tl: 5704
+volume_ti: 306
+issue_ti: 5704
 doi_txt: "10.1126/science.1103776"
 authors_list: 
   - author_txt: "Shimizu KK"

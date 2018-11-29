@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "A population genetic approach to mapping neurological disorder genes using deep resequencing."
-pmid_tl: 21383861
+pmid_ti: 21383861
 publishDate_tdt: "2011-02-01T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tl: 7
-issue_tl: 2
+volume_ti: 7
+issue_ti: 2
 doi_txt: "10.1371/journal.pgen.1001318"
 authors_list: 
   - author_txt: "Myers RA"

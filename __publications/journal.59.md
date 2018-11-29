@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Diversity and linkage of genes in the self-incompatibility gene family in Arabidopsis lyrata."
-pmid_tl: 12930757
+pmid_ti: 12930757
 publishDate_tdt: "2003-08-01T07:23:33.000Z"
 journalTitle_txt: "Genetics"
-volume_tl: 164
-issue_tl: 4
+volume_ti: 164
+issue_ti: 4
 authors_list: 
   - author_txt: "Charlesworth D"
   - author_txt: "Mable BK"

@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Recombination affects accumulation of damaging and disease-associated mutations in human populations."
-pmid_tl: 25685891
+pmid_ti: 25685891
 publishDate_tdt: "2015-04-01T07:23:33.000Z"
 journalTitle_txt: "Nature genetics"
-volume_tl: 47
-issue_tl: 4
+volume_ti: 47
+issue_ti: 4
 doi_txt: "10.1038/ng.3216"
 authors_list: 
   - author_txt: "Hussin JG"

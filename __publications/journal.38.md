@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Rare copy number variants contribute to congenital left-sided heart disease."
-pmid_tl: 22969434
+pmid_ti: 22969434
 publishDate_tdt: "2012-09-01T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tl: 8
-issue_tl: 9
+volume_ti: 8
+issue_ti: 9
 doi_txt: "10.1371/journal.pgen.1002903"
 authors_list: 
   - author_txt: "Hitz MP"

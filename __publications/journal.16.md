@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "A map of human genome variation from population-scale sequencing."
-pmid_tl: 20981092
+pmid_ti: 20981092
 publishDate_tdt: "2010-10-28T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tl: 467
-issue_tl: 7319
+volume_ti: 467
+issue_ti: 7319
 doi_txt: "10.1038/nature09534"
 authors_list: 
   - author_txt: "1000 Genomes Project Consortium."

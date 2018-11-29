@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Allele-specific expression reveals interactions between genetic variation and environment."
-pmid_tl: 28530654
+pmid_ti: 28530654
 publishDate_tdt: "2017-07-01T07:23:33.000Z"
 journalTitle_txt: "Nature methods"
-volume_tl: 14
-issue_tl: 7
+volume_ti: 14
+issue_ti: 7
 doi_txt: "10.1038/nmeth.4298"
 authors_list: 
   - author_txt: "Knowles DA"
