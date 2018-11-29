@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Association of age-dependent height and bone mineral density decline with increased arterial stiffness and rate of fractures in hypertensive individuals."
-pmid_tl: 25915877
+pmid_ti: 25915877
 publishDate_tdt: "2015-04-01T07:23:33.000Z"
 journalTitle_txt: "Journal of hypertension"
-volume_tl: 33
-issue_tl: 4
+volume_ti: 33
+issue_ti: 4
 doi_txt: "10.1097/HJH.0000000000000475"
 authors_list: 
   - author_txt: "El-Bikai R"

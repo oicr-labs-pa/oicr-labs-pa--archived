@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Similarity in recombination rate estimates highly correlates with genetic differentiation in humans."
-pmid_tl: 21464928
+pmid_ti: 21464928
 publishDate_tdt: "2011-03-28T07:23:33.000Z"
 journalTitle_txt: "PloS one"
-volume_tl: 6
-issue_tl: 3
+volume_ti: 6
+issue_ti: 3
 doi_txt: "10.1371/journal.pone.0017913"
 authors_list: 
   - author_txt: "Laayouni H"

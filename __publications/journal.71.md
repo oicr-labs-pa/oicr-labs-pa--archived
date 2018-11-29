@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "A haplotype-based normalization technique for the analysis and detection of allele specific expression"
-pmid_tl: 
+pmid_ti: 
 publishDate_tdt: "2016-09-13T07:23:33.000Z"
 journalTitle_txt: "BMC Bioinformatics"
-volume_tl:
-issue_tl:
+volume_ti:
+issue_ti:
 link_txt: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1238-8"
 doi_txt: "10.1186/s12859-016-1238-8"
 authors_list:

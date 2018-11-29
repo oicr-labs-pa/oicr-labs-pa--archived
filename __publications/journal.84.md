@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Global genetic diversity of UpsA var genes and the placental malaria vaccine candidate var2csa: Implications for severe malaria"
-pmid_tl: 
+pmid_ti: 
 publishDate_tdt: "2006-01-01T07:23:33.000Z"
 journalTitle_txt: "Molecular Biochemistry and Parasitology"
-volume_tl: 
-issue_tl: 
+volume_ti: 
+issue_ti: 
 doi_txt:
 link_txt: /
 authors_list: 

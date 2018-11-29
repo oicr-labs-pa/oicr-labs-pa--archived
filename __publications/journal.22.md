@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Family Based Whole Exome Sequencing Reveals the Multifaceted Role of Notch Signaling in Congenital Heart Disease."
-pmid_tl: 27760138
+pmid_ti: 27760138
 publishDate_tdt: "2016-10-19T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tl: 12
-issue_tl: 10
+volume_ti: 12
+issue_ti: 10
 doi_txt: "10.1371/journal.pgen.1006335"
 authors_list: 
   - author_txt: "Preuss C"

@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Whole-exome sequencing reveals a rapid change in the frequency of rare functional variants in a founding population of humans."
-pmid_tl: 24086152
+pmid_ti: 24086152
 publishDate_tdt: "2013-01-01T07:23:33.000Z"
 journalTitle_txt: "PLoS genetics"
-volume_tl: 9
-issue_tl: 9
+volume_ti: 9
+issue_ti: 9
 doi_txt: "10.1371/journal.pgen.1003815"
 authors_list: 
   - author_txt: "Casals F"

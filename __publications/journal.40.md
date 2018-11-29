@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "The functional spectrum of low-frequency coding variation."
-pmid_tl: 21917140
+pmid_ti: 21917140
 publishDate_tdt: "2011-09-14T07:23:33.000Z"
 journalTitle_txt: "Genome biology"
-volume_tl: 12
-issue_tl: 9
+volume_ti: 12
+issue_ti: 9
 doi_txt: "10.1186/gb-2011-12-9-r84"
 authors_list: 
   - author_txt: "Marth GT"

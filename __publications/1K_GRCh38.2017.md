@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Alignment of 1000 Genomes Project reads to reference assembly GRCh38."
-pmid_tl: 28531267
+pmid_ti: 28531267
 publishDate_tdt: "2017-05-20T07:23:33.000Z"
 journalTitle_txt: "GigaScience"
-volume_tl: 6
-issue_tl: 7
+volume_ti: 6
+issue_ti: 7
 doi_txt: "10.1093/gigascience/gix038"
 authors_list: 
   - author_txt: "Xiangqun Zheng-Bradley"

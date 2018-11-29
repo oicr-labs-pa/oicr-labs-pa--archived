@@ -6,11 +6,11 @@ isPublic_b: false
 
 publicationType_txt: journal
 title_txt: Allele-specific expression reveals interactions between genetic variation and environment
-pmid_tl: 27776113
+pmid_ti: 27776113
 publishDate_tdt: "2016-10-01T07:23:33.000Z"
 journalTitle_txt: Cancer Research
-volume_tl: 100
-issue_tl: 10
+volume_ti: 100
+issue_ti: 10
 link_txt: /
 doi_txt: 10.1038/nmeth.4037
 authors_list:

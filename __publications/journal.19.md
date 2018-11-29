@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Impact of the X Chromosome and sex on regulatory variation."
-pmid_tl: 27197214
+pmid_ti: 27197214
 publishDate_tdt: "2016-06-01T07:23:33.000Z"
 journalTitle_txt: "Genome research"
-volume_tl: 26
-issue_tl: 6
+volume_ti: 26
+issue_ti: 6
 doi_txt: "10.1101/gr.197897.115"
 authors_list: 
   - author_txt: "Kukurba KR"

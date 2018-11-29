@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: Punctuated bursts in human male demography inferred from 1,244 worldwide Y-chromosome sequences.
-pmid_tl: 27111036
+pmid_ti: 27111036
 publishDate_tdt: "2016-06-01T07:23:33.000Z"
 journalTitle_txt: Nature genetics
-volume_tl: 48
-issue_tl: 6
+volume_ti: 48
+issue_ti: 6
 doi_txt: 10.1038/ng.3559
 authors_list: 
   - author_txt: Poznik GD
