@@ -6,7 +6,6 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Questioning Evidence for Recombination in Human Mitochondrial DNA"
-pmid_ti: 
 publishDate_tdt: "2000-06-16T07:23:33.000Z"
 journalTitle_txt: "Science Technical comment"
 volume_ti: 228

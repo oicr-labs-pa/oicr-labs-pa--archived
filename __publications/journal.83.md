@@ -6,11 +6,9 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Dose dependent effect of 17q21.31 cnv on the prevalence of dyslipidemic hypertension"
-pmid_ti: 
 publishDate_tdt: "2012-09-01T07:23:33.000Z"
 journalTitle_txt: "Journal of Hypertension"
 volume_ti: 30
-issue_ti: 
 doi_txt: "10.1097/01.hjh.0000419895.80861.ec"
 link_txt: "https://journals.lww.com/jhypertension/Abstract/2012/09001/70_17q21_31_CNV_DOSE_DEPENDENT_EFFECT_ON_THE.69.aspx"
 authors_list: 

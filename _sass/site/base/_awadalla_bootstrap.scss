@@ -163,6 +163,24 @@ li a:hover {
         min-width: 200px;
     }
 }
+
+#app-user-services #user-dashboard-menu {
+    margin-left: 0;
+}
+
+#app-user-services #forms-user-dashboard h2.title {
+    font-weight: normal;
+}
+
+#app-user-services #forms-user-dashboard .tab-pane {
+    color: #333333;
+    background-color: transparent;
+}
+
+#app-user-services #forms-user-dashboard .content {
+    padding: 0;
+}
+
 /* HTML Elements -------------------------------------------------------------*/
 li,
 p {

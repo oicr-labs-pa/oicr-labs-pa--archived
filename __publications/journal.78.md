@@ -6,7 +6,6 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "The question of Plasmodium falciparum population structure"
-pmid_ti: 
 publishDate_tdt: "2001-08-01T07:23:33.000Z"
 journalTitle_txt: "Trends in Parasitology"
 volume_ti: 17

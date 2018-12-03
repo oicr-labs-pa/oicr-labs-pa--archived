@@ -6,11 +6,8 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: Motif Disruption Domains Lead to Cancer Gene Expression Rewiring
-pmid_ti: 
 publishDate_tdt: "2016-04-11T07:23:33.000Z"
 journalTitle_txt: bioRxiv
-volume_ti:
-issue_ti:
 link_txt: "https://www.biorxiv.org/content/early/2017/04/11/126359"
 doi_txt: 10.1101/126359
 authors_list:

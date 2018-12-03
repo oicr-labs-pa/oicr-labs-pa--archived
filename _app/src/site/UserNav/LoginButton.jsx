@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { selectors } from 'oicr-ui-core/lib/ums';
+import { UMS } from 'oicr-ui-core';
 
 const { loggedinSelector } = selectors;
 
@@ -8,18 +9,18 @@ const { loggedinSelector } = selectors;
 const LoginLink = ({ loggedIn }) => {
     if (!loggedIn) {
         return (
-            <div className="cbw-login hidden-xs clearfix" id="nav-login-desktop">
-                <ul>
-                    <li>
+            <div id="login-container">
+                <div id="login">
+                    <div id="nav-login-desktop">
                         <a href="/user" role="button" className="btn btn-default">
-                            Log In
+                            Login
                         </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         );
     }
-    return null;
+    return <UMS.Components.UserNavMenu rootPath="/user" />;
 };
 
 export default connect(

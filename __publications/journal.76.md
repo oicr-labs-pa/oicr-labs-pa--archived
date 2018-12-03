@@ -6,7 +6,6 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "A murine specific expansion of the Rhox cluster involved in embryonic stem cell biology is under natural selection"
-pmid_ti: 
 publishDate_tdt: "2006-08-17T07:23:33.000Z"
 journalTitle_txt: "BMC Genomics"
 volume_ti: 7
