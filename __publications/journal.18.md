@@ -6,10 +6,10 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Rationale, design, and methods for Canadian alliance for healthy hearts and minds cohort study (CAHHM) - a Pan Canadian cohort study."
-pmid_tl: 27464510
+pmid_ti: 27464510
 publishDate_tdt: "2016-07-27T07:23:33.000Z"
 journalTitle_txt: "BMC public health"
-volume_tl: 16
+volume_ti: 16
 doi_txt: "10.1186/s12889-016-3310-8"
 authors_list: 
   - author_txt: "Anand SS"

@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "De novo mutations in the gene encoding the synaptic scaffolding protein SHANK3 in patients ascertained for schizophrenia."
-pmid_tl: 20385823
+pmid_ti: 20385823
 publishDate_tdt: "2010-04-27T07:23:33.000Z"
 journalTitle_txt: "Proceedings of the National Academy of Sciences of the United States of America"
-volume_tl: 107
-issue_tl: 17
+volume_ti: 107
+issue_ti: 17
 doi_txt: "10.1073/pnas.0906232107"
 authors_list: 
   - author_txt: "Gauthier J"

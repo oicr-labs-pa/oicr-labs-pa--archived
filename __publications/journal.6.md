@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "An integrated map of genetic variation from 1,092 human genomes."
-pmid_tl: "23128226"
+pmid_ti: "23128226"
 publishDate_tdt: "2012-11-01T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tl: "491"
-issue_tl: "7422"
+volume_ti: "491"
+issue_ti: "7422"
 doi_txt: "10.1038/nature11632"
 authors_list: 
   - author_txt: "1000 Genomes Project Consortium."

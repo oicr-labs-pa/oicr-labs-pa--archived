@@ -6,11 +6,10 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Questioning Evidence for Recombination in Human Mitochondrial DNA"
-pmid_tl: 
 publishDate_tdt: "2000-06-16T07:23:33.000Z"
 journalTitle_txt: "Science Technical comment"
-volume_tl: 228
-issue_tl: 5473
+volume_ti: 228
+issue_ti: 5473
 doi_txt: "10.1126/science.288.5473.1931a"
 link_txt: "http://science.sciencemag.org/content/288/5473/1931/tab-pdf"
 authors_list: 

@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Relaxed Selection During a Recent Human Expansion."
-pmid_tl: 29187508
+pmid_ti: 29187508
 publishDate_tdt: "2018-02-01T07:23:33.000Z"
 journalTitle_txt: "GENETICS"
-volume_tl: 208
-issue_tl: 2
+volume_ti: 208
+issue_ti: 2
 doi_txt: "10.1534/genetics.117.300551"
 authors_list: 
   - author_txt: "Stephan Peischl"

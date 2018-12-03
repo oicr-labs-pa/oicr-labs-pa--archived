@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Structural polymorphism and diversifying selection on the pregnancy malaria vaccine candidate VAR2CSA."
-pmid_tl: 17669514
+pmid_ti: 17669514
 publishDate_tdt: "2007-10-01T07:23:33.000Z"
 journalTitle_txt: "Molecular and biochemical parasitology"
-volume_tl: 155
-issue_tl: 2
+volume_ti: 155
+issue_ti: 2
 oi_txt: "10.1016/j.molbiopara.2007.06.007"
 authors_list: 
   - author_txt: "Bockhorst J"

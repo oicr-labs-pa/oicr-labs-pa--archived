@@ -1,5 +1,5 @@
-import { Search, Publications } from 'oicr-ui-core';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+import { Forms, Search, Publications } from 'oicr-ui-core';
 import coreReducers from '../core/reducers';
 import coreMiddlewares from '../core/middlewares';
 
@@ -8,9 +8,7 @@ const initialState = {
 };
 
 const combinedReducers = combineReducers(
-    Object.assign({}, coreReducers, Search.reducers, Publications.reducers, {
-        // Custom reducers
-    }),
+    Object.assign({}, coreReducers, { }),
 );
 
 const composedMiddlewares = compose(

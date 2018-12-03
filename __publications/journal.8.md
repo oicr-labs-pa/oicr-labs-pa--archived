@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Cohort profile of the CARTaGENE study: Quebec's population-based biobank for public health and personalized genomics."
-pmid_tl: 23071140
+pmid_ti: 23071140
 publishDate_tdt: "2013-10-01T07:23:33.000Z"
 journalTitle_txt: "International journal of epidemiology"
-volume_tl: 42
-issue_tl: 5
+volume_ti: 42
+issue_ti: 5
 doi_txt: "10.1093/ije/dys160"
 authors_list: 
   - author_txt: "Awadalla P"

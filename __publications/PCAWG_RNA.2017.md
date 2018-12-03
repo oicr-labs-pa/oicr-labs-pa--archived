@@ -6,11 +6,8 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Pan-cancer study of heterogeneous RNA aberrations."
-pmid_tl: 
 publishDate_tdt: "2017-01-01T07:23:33.000Z"
 journalTitle_txt: "bioRxiv"
-volume_tl:
-issue_tl:
 link_txt: "https://www.biorxiv.org/content/early/2017/09/03/183889"
 doi_txt: "10.1101/183889"
 authors_list:
