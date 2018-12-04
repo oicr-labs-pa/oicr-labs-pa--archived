@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Demographic history and rare allele sharing among human populations."
-pmid_tl: 21730125
+pmid_ti: 21730125
 publishDate_tdt: "2011-07-19T07:23:33.000Z"
 journalTitle_txt: "Proceedings of the National Academy of Sciences of the United States of America"
-volume_tl: 108
-issue_tl: 29
+volume_ti: 108
+issue_ti: 29
 doi_txt: "10.1073/pnas.1019276108"
 authors_list: 
   - author_txt: "Gravel S"

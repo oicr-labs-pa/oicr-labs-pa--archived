@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "An integrated map of structural variation in 2,504 human genomes."
-pmid_tl: 26432246
+pmid_ti: 26432246
 publishDate_tdt: "2015-10-01T07:23:33.000Z"
 journalTitle_txt: "Nature"
-volume_tl: 526
-issue_tl: 7571
+volume_ti: 526
+issue_ti: 7571
 doi_txt: "10.1038/nature15394"
 authors_list: 
   - author_txt: "Sudmant PH"

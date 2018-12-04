@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Plasmodium falciparum genetic diversity maintained and amplified over 5 years of a low transmission endemic in the Peruvian Amazon."
-pmid_tl: 21109587
+pmid_ti: 21109587
 publishDate_tdt: "2011-07-01T07:23:33.000Z"
 journalTitle_txt: "Molecular biology and evolution"
-volume_tl: 28
-issue_tl: 7
+volume_ti: 28
+issue_ti: 7
 doi_txt: "10.1093/molbev/msq311"
 authors_list: 
   - author_txt: "Branch OH"

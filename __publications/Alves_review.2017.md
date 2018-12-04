@@ -7,11 +7,11 @@ highlight: true
 
 publicationType_txt: journal
 title_txt: "The impact of recombination on human mutation load and disease."
-pmid_tl:
+pmid_ti: 29109227
 publishDate_tdt: "2017-12-19T07:23:33.000Z"
 journalTitle_txt: "The Royal Society"
-volume_tl: 372
-issue_tl: 1736
+volume_ti: 372
+issue_ti: 1736
 link_txt: "http://rstb.royalsocietypublishing.org/content/372/1736/20160465.long"
 doi_txt: "10.1098/rstb.2016.0465"
 authors_list: 

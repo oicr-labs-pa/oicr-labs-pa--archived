@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Recombination and selection at Brassica self-incompatibility loci."
-pmid_tl: 10224271
+pmid_ti: 10224271
 publishDate_tdt: "1999-05-01T07:23:33.000Z"
 journalTitle_txt: "Genetics"
-volume_tl: 152
-issue_tl: 1
+volume_ti: 152
+issue_ti: 1
 authors_list: 
   - author_txt: "Awadalla P"
   - author_txt: "Charlesworth D"

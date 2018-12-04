@@ -6,11 +6,10 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Abstract SY10-02: Pan-cancer study of recurrent and heterogeneous RNA aberrations and association with whole-genome variants."
-pmid_tl: 
 publishDate_tdt: "2017-07-01T07:23:33.000Z"
 journalTitle_txt: "Cancer Research"
-volume_tl: 17
-issue_tl: 13 Supplement
+volume_ti: 17
+issue_ti: 13 Supplement
 link_txt: "http://cancerres.aacrjournals.org/content/77/13_Supplement/SY10-02"
 doi_txt: "10.1158/1538-7445.AM2017-SY10-02"
 authors_list: 

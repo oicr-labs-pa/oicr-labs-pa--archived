@@ -6,10 +6,10 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Comparative Analysis of Iron Homeostasis in Sub-Saharan African Children with Sickle Cell Disease and Their Unaffected Siblings."
-pmid_tl: 26942167
+pmid_ti: 26942167
 publishDate_tdt: "2016-02-23T07:23:33.000Z"
 journalTitle_txt: "Frontiers in pediatrics"
-volume_tl: 4
+volume_ti: 4
 doi_txt: "10.3389/fped.2016.00008"
 authors_list: 
   - author_txt: "Gomez S"

@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Direct measure of the de novo mutation rate in autism and schizophrenia cohorts."
-pmid_tl: 20797689
+pmid_ti: 20797689
 publishDate_tdt: "2010-09-10T07:23:33.000Z"
 journalTitle_txt: "American journal of human genetics"
-volume_tl: 87
-issue_tl: 3
+volume_ti: 87
+issue_ti: 3
 doi_txt: "10.1016/j.ajhg.2010.07.019"
 authors_list: 
   - author_txt: "Awadalla P"

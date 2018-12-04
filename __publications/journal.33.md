@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Exome sequencing identifies mutations in the gene TTC7A in French-Canadian cases with hereditary multiple intestinal atresia."
-pmid_tl: 23423984
+pmid_ti: 23423984
 publishDate_tdt: "2013-05-01T07:23:33.000Z"
 journalTitle_txt: "Journal of medical genetics"
-volume_tl: 50
-issue_tl: 5
+volume_ti: 50
+issue_ti: 5
 doi_txt: "10.1136/jmedgenet-2012-101483"
 authors_list: 
   - author_txt: "Samuels ME"

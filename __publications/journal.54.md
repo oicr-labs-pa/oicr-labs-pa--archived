@@ -6,11 +6,11 @@ isPublic_b: true
 
 publicationType_txt: journal
 title_txt: "Genomewide association studies: history, rationale, and prospects for psychiatric disorders."
-pmid_tl: 19339359
+pmid_ti: 19339359
 publishDate_tdt: "2009-05-01T07:23:33.000Z"
 journalTitle_txt: "The American journal of psychiatry"
-volume_tl: 166
-issue_tl: 5
+volume_ti: 166
+issue_ti: 5
 doi_txt: "10.1176/appi.ajp.2008.08091354"
 authors_list: 
   - author_txt: "Psychiatric GWAS Consortium Coordinating Committee."
