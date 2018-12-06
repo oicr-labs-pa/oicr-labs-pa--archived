@@ -6,8 +6,8 @@ isPublic_b: true
 
 firstName_txt: Hilary
 lastName_txt: Edgington 
-position_txt: 
-affiliation_txt:
-location_txt:
+position_txt: Postdoctoral Researcher
+affiliation_txt: The Ohio State University
+location_txt: Wooster, Ohio, USA
 alumniType_txt: Postdocs
 ---

@@ -12,9 +12,9 @@ isPublic_b: true
 banner:
   labName_txt: Awadalla Research Lab
   title_txt: Pioneering Genomics for Precision Health 
-  subtitle_txt: "We use population genomics to understand individual health trajectories. We are a team of ***curious*** and ***collaborative*** researchers, bridging the fields of:"
-  rightBox_txt: bioinformatics
-  leftBox_txt:  genetic research
+  subtitle_txt: "We use population genomics to understand individual health trajectories. We are a team of ***geneticists*** and ***computations biologists***, bridging the fields of:"
+  rightBox_txt: Bioinformatics
+  leftBox_txt:  Genomics
   button_txt: Our Research
   link_txt: "/research/"
 
@@ -38,7 +38,7 @@ joinTeamBox:
   link_txt: "/join/"
 
 collabBox:
-  title_txt: Call for Collaboration
+  title_txt: Contact Us
   content_txt: Are you interested in the research we do and think you can add value to our projects?
   button_txt: Contact Us
   link_txt: "/contact/"

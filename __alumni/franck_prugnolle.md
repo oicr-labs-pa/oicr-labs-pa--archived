@@ -6,8 +6,8 @@ isPublic_b: true
 
 firstName_txt: Franck
 lastName_txt: Prugnolle 
-position_txt: Researcher
+position_txt: Professor
 affiliation_txt: "HEALTH: Ecology and Evolution </br> CNRS/IRD/Universités de Montpellier"
-location_txt: Montpellier, France
+location_txt: France
 alumniType_txt: Postdocs
 ---

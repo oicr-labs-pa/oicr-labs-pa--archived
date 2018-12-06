@@ -117,11 +117,9 @@ layout: pages-all
                                             <div class="col-xs-12 col-sm-6 col-md-3 dropdown-card ">
                                                 <div class="dropdown-card-content box-content">
                                                     <h5>{{ person.firstName_txt }} {{ person.lastName_txt}}</h5>
-                                                    <!--
                                                     {% if person.position_txt and person.position_txt.size > 0 %}<p class="alumni-position">{{ person.position_txt }}</p>{% endif %}
                                                     {% if person.affiliation_txt and person.affiliation_txt.size > 0 %}<p class="alumni-affiliation_txt">{{ person.affiliation_txt }}</p>{% endif %}
                                                     {% if person.location_txt and person.location_txt.size > 0 %}<p class="alumni-location_txt">{{ person.location_txt }}</p>{% endif %}
-                                                    -->
                                                 </div>
                                             </div>
                                         {% endfor %}
