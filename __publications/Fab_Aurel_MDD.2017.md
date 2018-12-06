@@ -26,7 +26,7 @@ authors_list:
 articleId_list:
   - idType_txt: ''
     idValue_txt: ''
-title_txt: ' Motif Disruption Domains Lead To Cancer Gene Expression Rewiring.'
+title_txt: ' !Motif Disruption Domains Lead To Cancer Gene Expression Rewiring.'
 
 ---
 
