@@ -50,11 +50,11 @@ collections:
   _pages:
     output: true
   _privateFiles:
-    output: false
+    output: true
   _files:
-    output: false
+    output: true
   _videos:
-    output: false
+    output: true
   _weblinks:
     output: true
   _modules:
