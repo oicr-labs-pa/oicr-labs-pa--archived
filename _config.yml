@@ -101,8 +101,7 @@ defaults:
       published: Published
       isPublic_b: Public
 
-#formsSiteURL: forms.oicr.on.ca
-formsSiteURL: forms.koji.vm
+formsSiteURL: forms.oicr.on.ca
 
 ######################################################################
 # Jekyll Environment Config
@@ -116,6 +115,7 @@ markdown: kramdown
 
 # Jekyll plugins ( also requires to add list in Gemfile )
 plugins:
+  - jekyll-feed
 
 # Exclude these files when the site is generated.
 exclude:
